@@ -49,12 +49,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="FormController\CustomerController.cs" />
     <Compile Include="FormController\DefaultCodeController.cs" />
     <Compile Include="FormController\LoginFormCtl.cs" />
     <Compile Include="FormController\MachineController.cs" />
     <Compile Include="FormController\MemberController.cs" />
+    <Compile Include="FormController\PartController.cs" />
     <Compile Include="FormController\ProcessController.cs" />
     <Compile Include="FormController\ProductController.cs" />
     <Compile Include="FormController\StandardProcessController.cs" />
@@ -66,6 +66,7 @@
     <Compile Include="FormInterFace\IProductForm.cs" />
     <Compile Include="FormController\NoticeController.cs" />
     <Compile Include="OrderController.cs" />
+    <Compile Include="ProducinController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

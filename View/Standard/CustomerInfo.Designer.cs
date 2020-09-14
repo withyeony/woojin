@@ -28,8 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_company = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgv_member = new System.Windows.Forms.DataGridView();
             this.btn_search = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -37,9 +45,14 @@
             this.txt_customer_searchbox = new System.Windows.Forms.TextBox();
             this.cb_customer_Select = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_textbox_reset = new System.Windows.Forms.Button();
+            this.txt_company_address = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btn_company_delete = new System.Windows.Forms.Button();
+            this.btn_company_modify = new System.Windows.Forms.Button();
+            this.btn_company_add = new System.Windows.Forms.Button();
             this.cb_company_Transaction = new System.Windows.Forms.ComboBox();
             this.cb_company_group = new System.Windows.Forms.ComboBox();
-            this.cb_company_class = new System.Windows.Forms.ComboBox();
             this.txt_company_fax = new System.Windows.Forms.TextBox();
             this.txt_company_number = new System.Windows.Forms.TextBox();
             this.txt_company_ceo = new System.Windows.Forms.TextBox();
@@ -51,13 +64,19 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_company_add = new System.Windows.Forms.Button();
-            this.btn_company_modify = new System.Windows.Forms.Button();
-            this.btn_company_delete = new System.Windows.Forms.Button();
+            this.btn_textbox_reset_m = new System.Windows.Forms.Button();
+            this.btn_dgvRefresh = new System.Windows.Forms.Button();
+            this.btn_close = new System.Windows.Forms.Button();
+            this.btn_member_delete = new System.Windows.Forms.Button();
+            this.txt_member_etc = new System.Windows.Forms.TextBox();
+            this.btn_member_modify = new System.Windows.Forms.Button();
+            this.txt_member_part = new System.Windows.Forms.TextBox();
+            this.btn_member_add = new System.Windows.Forms.Button();
+            this.txt_member_name = new System.Windows.Forms.TextBox();
+            this.cb_member_code = new System.Windows.Forms.ComboBox();
             this.txt_member_email = new System.Windows.Forms.TextBox();
             this.txt_member_fax = new System.Windows.Forms.TextBox();
             this.txt_member_number = new System.Windows.Forms.TextBox();
@@ -70,22 +89,6 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.cb_member_code = new System.Windows.Forms.ComboBox();
-            this.txt_member_part = new System.Windows.Forms.TextBox();
-            this.txt_member_name = new System.Windows.Forms.TextBox();
-            this.txt_member_etc = new System.Windows.Forms.TextBox();
-            this.btn_member_delete = new System.Windows.Forms.Button();
-            this.btn_member_modify = new System.Windows.Forms.Button();
-            this.btn_member_add = new System.Windows.Forms.Button();
-            this.btn_close = new System.Windows.Forms.Button();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -94,6 +97,7 @@
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_company)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_member)).BeginInit();
             this.panel1.SuspendLayout();
@@ -105,14 +109,14 @@
             // 
             this.dgv_company.AllowUserToAddRows = false;
             this.dgv_company.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_company.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_company.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_company.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_company.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -131,6 +135,57 @@
             this.dgv_company.TabIndex = 0;
             this.dgv_company.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_company_CellClick);
             // 
+            // Column1
+            // 
+            this.Column1.FillWeight = 70F;
+            this.Column1.HeaderText = "업체코드";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
+            this.Column1.Width = 70;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "업체구분";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "업체명";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "대표자명";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "주소";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "전화번호";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "팩스번호";
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "거래유무";
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            // 
             // dgv_member
             // 
             this.dgv_member.AllowUserToAddRows = false;
@@ -144,7 +199,8 @@
             this.Column13,
             this.Column14,
             this.Column15,
-            this.Column16});
+            this.Column16,
+            this.Column17});
             this.dgv_member.Location = new System.Drawing.Point(29, 494);
             this.dgv_member.Name = "dgv_member";
             this.dgv_member.ReadOnly = true;
@@ -203,8 +259,8 @@
             this.cb_customer_Select.FormattingEnabled = true;
             this.cb_customer_Select.ItemHeight = 25;
             this.cb_customer_Select.Items.AddRange(new object[] {
-            "업체 코드",
             "업체 구분",
+            "업체 코드",
             "업체명",
             "대표자명",
             "주소",
@@ -218,12 +274,14 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.btn_textbox_reset);
+            this.panel1.Controls.Add(this.txt_company_address);
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.btn_company_delete);
             this.panel1.Controls.Add(this.btn_company_modify);
             this.panel1.Controls.Add(this.btn_company_add);
             this.panel1.Controls.Add(this.cb_company_Transaction);
             this.panel1.Controls.Add(this.cb_company_group);
-            this.panel1.Controls.Add(this.cb_company_class);
             this.panel1.Controls.Add(this.txt_company_fax);
             this.panel1.Controls.Add(this.txt_company_number);
             this.panel1.Controls.Add(this.txt_company_ceo);
@@ -235,7 +293,6 @@
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Location = new System.Drawing.Point(16, 15);
@@ -243,9 +300,73 @@
             this.panel1.Size = new System.Drawing.Size(1844, 459);
             this.panel1.TabIndex = 10;
             // 
+            // btn_textbox_reset
+            // 
+            this.btn_textbox_reset.Location = new System.Drawing.Point(1712, 415);
+            this.btn_textbox_reset.Name = "btn_textbox_reset";
+            this.btn_textbox_reset.Size = new System.Drawing.Size(90, 23);
+            this.btn_textbox_reset.TabIndex = 32;
+            this.btn_textbox_reset.Text = "내용 지우기";
+            this.btn_textbox_reset.UseVisualStyleBackColor = true;
+            this.btn_textbox_reset.Click += new System.EventHandler(this.btn_textbox_reset_Click);
+            // 
+            // txt_company_address
+            // 
+            this.txt_company_address.Location = new System.Drawing.Point(1397, 287);
+            this.txt_company_address.Name = "txt_company_address";
+            this.txt_company_address.Size = new System.Drawing.Size(285, 21);
+            this.txt_company_address.TabIndex = 31;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 13F);
+            this.label2.Location = new System.Drawing.Point(1307, 288);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(40, 22);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "주소";
+            // 
+            // btn_company_delete
+            // 
+            this.btn_company_delete.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
+            this.btn_company_delete.Location = new System.Drawing.Point(1712, 319);
+            this.btn_company_delete.Name = "btn_company_delete";
+            this.btn_company_delete.Size = new System.Drawing.Size(90, 90);
+            this.btn_company_delete.TabIndex = 29;
+            this.btn_company_delete.Text = "업체 정보 \r\n삭제";
+            this.btn_company_delete.UseVisualStyleBackColor = true;
+            this.btn_company_delete.Click += new System.EventHandler(this.btn_company_delete_Click);
+            // 
+            // btn_company_modify
+            // 
+            this.btn_company_modify.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
+            this.btn_company_modify.Location = new System.Drawing.Point(1712, 223);
+            this.btn_company_modify.Name = "btn_company_modify";
+            this.btn_company_modify.Size = new System.Drawing.Size(90, 90);
+            this.btn_company_modify.TabIndex = 28;
+            this.btn_company_modify.Text = "업체 정보\r\n수정";
+            this.btn_company_modify.UseVisualStyleBackColor = true;
+            this.btn_company_modify.Click += new System.EventHandler(this.btn_company_modify_Click);
+            // 
+            // btn_company_add
+            // 
+            this.btn_company_add.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
+            this.btn_company_add.Location = new System.Drawing.Point(1712, 127);
+            this.btn_company_add.Name = "btn_company_add";
+            this.btn_company_add.Size = new System.Drawing.Size(90, 90);
+            this.btn_company_add.TabIndex = 27;
+            this.btn_company_add.Text = "업체 정보 \r\n추가";
+            this.btn_company_add.UseVisualStyleBackColor = true;
+            this.btn_company_add.Click += new System.EventHandler(this.btn_company_add_Click);
+            // 
             // cb_company_Transaction
             // 
+            this.cb_company_Transaction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_company_Transaction.FormattingEnabled = true;
+            this.cb_company_Transaction.Items.AddRange(new object[] {
+            "Y",
+            "N"});
             this.cb_company_Transaction.Location = new System.Drawing.Point(1397, 401);
             this.cb_company_Transaction.Name = "cb_company_Transaction";
             this.cb_company_Transaction.Size = new System.Drawing.Size(285, 20);
@@ -253,19 +374,12 @@
             // 
             // cb_company_group
             // 
+            this.cb_company_group.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_company_group.FormattingEnabled = true;
-            this.cb_company_group.Location = new System.Drawing.Point(1397, 215);
+            this.cb_company_group.Location = new System.Drawing.Point(1397, 175);
             this.cb_company_group.Name = "cb_company_group";
             this.cb_company_group.Size = new System.Drawing.Size(285, 20);
             this.cb_company_group.TabIndex = 25;
-            // 
-            // cb_company_class
-            // 
-            this.cb_company_class.FormattingEnabled = true;
-            this.cb_company_class.Location = new System.Drawing.Point(1397, 177);
-            this.cb_company_class.Name = "cb_company_class";
-            this.cb_company_class.Size = new System.Drawing.Size(285, 20);
-            this.cb_company_class.TabIndex = 24;
             // 
             // txt_company_fax
             // 
@@ -283,14 +397,14 @@
             // 
             // txt_company_ceo
             // 
-            this.txt_company_ceo.Location = new System.Drawing.Point(1397, 291);
+            this.txt_company_ceo.Location = new System.Drawing.Point(1397, 251);
             this.txt_company_ceo.Name = "txt_company_ceo";
             this.txt_company_ceo.Size = new System.Drawing.Size(285, 21);
             this.txt_company_ceo.TabIndex = 21;
             // 
             // txt_company_name
             // 
-            this.txt_company_name.Location = new System.Drawing.Point(1397, 253);
+            this.txt_company_name.Location = new System.Drawing.Point(1397, 213);
             this.txt_company_name.Name = "txt_company_name";
             this.txt_company_name.Size = new System.Drawing.Size(285, 21);
             this.txt_company_name.TabIndex = 20;
@@ -336,7 +450,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Calibri", 13F);
-            this.label5.Location = new System.Drawing.Point(1307, 291);
+            this.label5.Location = new System.Drawing.Point(1307, 251);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 22);
             this.label5.TabIndex = 15;
@@ -346,7 +460,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 13F);
-            this.label4.Location = new System.Drawing.Point(1307, 253);
+            this.label4.Location = new System.Drawing.Point(1307, 213);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 22);
             this.label4.TabIndex = 14;
@@ -356,21 +470,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 13F);
-            this.label3.Location = new System.Drawing.Point(1307, 216);
+            this.label3.Location = new System.Drawing.Point(1307, 176);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 22);
             this.label3.TabIndex = 13;
             this.label3.Text = "그룹 업체";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 13F);
-            this.label2.Location = new System.Drawing.Point(1307, 177);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 22);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "업체 구분";
             // 
             // label1
             // 
@@ -398,6 +502,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel2.Controls.Add(this.btn_textbox_reset_m);
+            this.panel2.Controls.Add(this.btn_dgvRefresh);
             this.panel2.Controls.Add(this.btn_close);
             this.panel2.Controls.Add(this.btn_member_delete);
             this.panel2.Controls.Add(this.txt_member_etc);
@@ -423,35 +529,100 @@
             this.panel2.Size = new System.Drawing.Size(1844, 382);
             this.panel2.TabIndex = 11;
             // 
-            // btn_company_add
+            // btn_textbox_reset_m
             // 
-            this.btn_company_add.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
-            this.btn_company_add.Location = new System.Drawing.Point(1712, 141);
-            this.btn_company_add.Name = "btn_company_add";
-            this.btn_company_add.Size = new System.Drawing.Size(90, 90);
-            this.btn_company_add.TabIndex = 27;
-            this.btn_company_add.Text = "업체 정보 \r\n추가";
-            this.btn_company_add.UseVisualStyleBackColor = true;
+            this.btn_textbox_reset_m.Location = new System.Drawing.Point(1712, 296);
+            this.btn_textbox_reset_m.Name = "btn_textbox_reset_m";
+            this.btn_textbox_reset_m.Size = new System.Drawing.Size(90, 23);
+            this.btn_textbox_reset_m.TabIndex = 33;
+            this.btn_textbox_reset_m.Text = "내용 지우기";
+            this.btn_textbox_reset_m.UseVisualStyleBackColor = true;
+            this.btn_textbox_reset_m.Click += new System.EventHandler(this.btn_textbox_reset_m_Click);
             // 
-            // btn_company_modify
+            // btn_dgvRefresh
             // 
-            this.btn_company_modify.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
-            this.btn_company_modify.Location = new System.Drawing.Point(1712, 237);
-            this.btn_company_modify.Name = "btn_company_modify";
-            this.btn_company_modify.Size = new System.Drawing.Size(90, 90);
-            this.btn_company_modify.TabIndex = 28;
-            this.btn_company_modify.Text = "업체 정보\r\n수정";
-            this.btn_company_modify.UseVisualStyleBackColor = true;
+            this.btn_dgvRefresh.Location = new System.Drawing.Point(1274, 326);
+            this.btn_dgvRefresh.Name = "btn_dgvRefresh";
+            this.btn_dgvRefresh.Size = new System.Drawing.Size(280, 45);
+            this.btn_dgvRefresh.TabIndex = 48;
+            this.btn_dgvRefresh.Tag = "";
+            this.btn_dgvRefresh.Text = "새로고침";
+            this.btn_dgvRefresh.UseVisualStyleBackColor = true;
+            this.btn_dgvRefresh.Click += new System.EventHandler(this.btn_dgvRefresh_Click);
             // 
-            // btn_company_delete
+            // btn_close
             // 
-            this.btn_company_delete.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
-            this.btn_company_delete.Location = new System.Drawing.Point(1712, 333);
-            this.btn_company_delete.Name = "btn_company_delete";
-            this.btn_company_delete.Size = new System.Drawing.Size(90, 90);
-            this.btn_company_delete.TabIndex = 29;
-            this.btn_company_delete.Text = "업체 정보 \r\n삭제";
-            this.btn_company_delete.UseVisualStyleBackColor = true;
+            this.btn_close.Location = new System.Drawing.Point(1557, 326);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(280, 45);
+            this.btn_close.TabIndex = 47;
+            this.btn_close.Tag = "거래처 정보";
+            this.btn_close.Text = "닫기";
+            this.btn_close.UseVisualStyleBackColor = true;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
+            // btn_member_delete
+            // 
+            this.btn_member_delete.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
+            this.btn_member_delete.Location = new System.Drawing.Point(1712, 200);
+            this.btn_member_delete.Name = "btn_member_delete";
+            this.btn_member_delete.Size = new System.Drawing.Size(90, 90);
+            this.btn_member_delete.TabIndex = 32;
+            this.btn_member_delete.Text = "담당자 정보 \r\n삭제";
+            this.btn_member_delete.UseVisualStyleBackColor = true;
+            this.btn_member_delete.Click += new System.EventHandler(this.btn_member_delete_Click);
+            // 
+            // txt_member_etc
+            // 
+            this.txt_member_etc.Location = new System.Drawing.Point(1397, 285);
+            this.txt_member_etc.Name = "txt_member_etc";
+            this.txt_member_etc.Size = new System.Drawing.Size(285, 21);
+            this.txt_member_etc.TabIndex = 46;
+            // 
+            // btn_member_modify
+            // 
+            this.btn_member_modify.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
+            this.btn_member_modify.Location = new System.Drawing.Point(1712, 104);
+            this.btn_member_modify.Name = "btn_member_modify";
+            this.btn_member_modify.Size = new System.Drawing.Size(90, 90);
+            this.btn_member_modify.TabIndex = 31;
+            this.btn_member_modify.Text = "담당자 정보\r\n수정";
+            this.btn_member_modify.UseVisualStyleBackColor = true;
+            this.btn_member_modify.Click += new System.EventHandler(this.btn_member_modify_Click);
+            // 
+            // txt_member_part
+            // 
+            this.txt_member_part.Location = new System.Drawing.Point(1397, 100);
+            this.txt_member_part.Name = "txt_member_part";
+            this.txt_member_part.Size = new System.Drawing.Size(285, 21);
+            this.txt_member_part.TabIndex = 45;
+            // 
+            // btn_member_add
+            // 
+            this.btn_member_add.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
+            this.btn_member_add.Location = new System.Drawing.Point(1712, 8);
+            this.btn_member_add.Name = "btn_member_add";
+            this.btn_member_add.Size = new System.Drawing.Size(90, 90);
+            this.btn_member_add.TabIndex = 30;
+            this.btn_member_add.Text = "담당자 정보 \r\n추가";
+            this.btn_member_add.UseVisualStyleBackColor = true;
+            this.btn_member_add.Click += new System.EventHandler(this.btn_member_add_Click);
+            // 
+            // txt_member_name
+            // 
+            this.txt_member_name.Location = new System.Drawing.Point(1397, 62);
+            this.txt_member_name.Name = "txt_member_name";
+            this.txt_member_name.Size = new System.Drawing.Size(285, 21);
+            this.txt_member_name.TabIndex = 44;
+            // 
+            // cb_member_code
+            // 
+            this.cb_member_code.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_member_code.FormattingEnabled = true;
+            this.cb_member_code.Location = new System.Drawing.Point(1397, 26);
+            this.cb_member_code.Name = "cb_member_code";
+            this.cb_member_code.Size = new System.Drawing.Size(285, 20);
+            this.cb_member_code.TabIndex = 43;
             // 
             // txt_member_email
             // 
@@ -561,127 +732,6 @@
             this.label18.TabIndex = 27;
             this.label18.Text = "업체 코드";
             // 
-            // cb_member_code
-            // 
-            this.cb_member_code.FormattingEnabled = true;
-            this.cb_member_code.Location = new System.Drawing.Point(1397, 26);
-            this.cb_member_code.Name = "cb_member_code";
-            this.cb_member_code.Size = new System.Drawing.Size(285, 20);
-            this.cb_member_code.TabIndex = 43;
-            // 
-            // txt_member_part
-            // 
-            this.txt_member_part.Location = new System.Drawing.Point(1397, 100);
-            this.txt_member_part.Name = "txt_member_part";
-            this.txt_member_part.Size = new System.Drawing.Size(285, 21);
-            this.txt_member_part.TabIndex = 45;
-            // 
-            // txt_member_name
-            // 
-            this.txt_member_name.Location = new System.Drawing.Point(1397, 62);
-            this.txt_member_name.Name = "txt_member_name";
-            this.txt_member_name.Size = new System.Drawing.Size(285, 21);
-            this.txt_member_name.TabIndex = 44;
-            // 
-            // txt_member_etc
-            // 
-            this.txt_member_etc.Location = new System.Drawing.Point(1397, 285);
-            this.txt_member_etc.Name = "txt_member_etc";
-            this.txt_member_etc.Size = new System.Drawing.Size(285, 21);
-            this.txt_member_etc.TabIndex = 46;
-            // 
-            // btn_member_delete
-            // 
-            this.btn_member_delete.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
-            this.btn_member_delete.Location = new System.Drawing.Point(1712, 218);
-            this.btn_member_delete.Name = "btn_member_delete";
-            this.btn_member_delete.Size = new System.Drawing.Size(90, 90);
-            this.btn_member_delete.TabIndex = 32;
-            this.btn_member_delete.Text = "담당자 정보 \r\n삭제";
-            this.btn_member_delete.UseVisualStyleBackColor = true;
-            // 
-            // btn_member_modify
-            // 
-            this.btn_member_modify.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
-            this.btn_member_modify.Location = new System.Drawing.Point(1712, 122);
-            this.btn_member_modify.Name = "btn_member_modify";
-            this.btn_member_modify.Size = new System.Drawing.Size(90, 90);
-            this.btn_member_modify.TabIndex = 31;
-            this.btn_member_modify.Text = "담당자 정보\r\n수정";
-            this.btn_member_modify.UseVisualStyleBackColor = true;
-            // 
-            // btn_member_add
-            // 
-            this.btn_member_add.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(150)));
-            this.btn_member_add.Location = new System.Drawing.Point(1712, 26);
-            this.btn_member_add.Name = "btn_member_add";
-            this.btn_member_add.Size = new System.Drawing.Size(90, 90);
-            this.btn_member_add.TabIndex = 30;
-            this.btn_member_add.Text = "담당자 정보 \r\n추가";
-            this.btn_member_add.UseVisualStyleBackColor = true;
-            // 
-            // btn_close
-            // 
-            this.btn_close.Location = new System.Drawing.Point(1293, 326);
-            this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(544, 45);
-            this.btn_close.TabIndex = 47;
-            this.btn_close.Tag = "거래처 정보";
-            this.btn_close.Text = "닫기";
-            this.btn_close.UseVisualStyleBackColor = true;
-            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
-            // 
-            // Column1
-            // 
-            this.Column1.FillWeight = 70F;
-            this.Column1.HeaderText = "업체코드";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
-            this.Column1.Width = 70;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "업체구분";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "업체명";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "대표자명";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "주소";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "전화번호";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "팩스번호";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "거래유무";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
-            // 
             // Column9
             // 
             this.Column9.HeaderText = "업체번호";
@@ -730,6 +780,13 @@
             this.Column16.Name = "Column16";
             this.Column16.ReadOnly = true;
             // 
+            // Column17
+            // 
+            this.Column17.HeaderText = "StaticNo";
+            this.Column17.Name = "Column17";
+            this.Column17.ReadOnly = true;
+            this.Column17.Visible = false;
+            // 
             // CustomerInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -769,7 +826,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox cb_company_Transaction;
         private System.Windows.Forms.ComboBox cb_company_group;
-        private System.Windows.Forms.ComboBox cb_company_class;
         private System.Windows.Forms.TextBox txt_company_fax;
         private System.Windows.Forms.TextBox txt_company_number;
         private System.Windows.Forms.TextBox txt_company_ceo;
@@ -781,7 +837,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_company_delete;
         private System.Windows.Forms.Button btn_company_modify;
         private System.Windows.Forms.Button btn_company_add;
@@ -813,6 +868,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.TextBox txt_company_address;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btn_dgvRefresh;
+        private System.Windows.Forms.Button btn_textbox_reset;
+        private System.Windows.Forms.Button btn_textbox_reset_m;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
@@ -821,5 +881,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column17;
     }
 }

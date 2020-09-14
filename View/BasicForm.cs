@@ -42,6 +42,7 @@ namespace View
 		private void Manu_Click(object sender, EventArgs e)
 		{
 			String str = sender.ToString();  //해당 문자열 나옴
+
 			Boolean check = false;
 			TabPage selectTab = new TabPage();
 			foreach (TabPage tab in tabControl1.TabPages)
@@ -115,15 +116,10 @@ namespace View
 					break;
 				case "표준 설비":
 					ift = new MachineView(_LoginInfo, this);
-					break;
-				case "System.Windows.Forms.Label, Text: label4":
-					ift = new TESTPAGE(_LoginInfo, this);
-					break;
+					break; 
 			}
 
 			return ift;
 		}
-
-
 	}
 }

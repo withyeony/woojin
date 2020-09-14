@@ -25,24 +25,10 @@ D:\Project\WooJin\Real\20200907\Model\obj\Debug\Model.csprojAssemblyReference.ca
 D:\Project\WooJin\Real\20200907\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 D:\Project\WooJin\Real\20200907\Model\obj\Debug\Model.dll
 D:\Project\WooJin\Real\20200907\Model\obj\Debug\Model.pdb
-D:\Project\WooJin\새 폴더\20200910\Model\bin\Debug\Model.dll.config
-D:\Project\WooJin\새 폴더\20200910\Model\bin\Debug\Model.dll
-D:\Project\WooJin\새 폴더\20200910\Model\bin\Debug\Model.pdb
-D:\Project\WooJin\새 폴더\20200910\Model\obj\Debug\Model.csprojAssemblyReference.cache
-D:\Project\WooJin\새 폴더\20200910\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
-D:\Project\WooJin\새 폴더\20200910\Model\obj\Debug\Model.dll
-D:\Project\WooJin\새 폴더\20200910\Model\obj\Debug\Model.pdb
-D:\Project\WooJin\Real\20200910 (2)\Model\bin\Debug\Model.dll.config
-D:\Project\WooJin\Real\20200910 (2)\Model\bin\Debug\Model.dll
-D:\Project\WooJin\Real\20200910 (2)\Model\bin\Debug\Model.pdb
-D:\Project\WooJin\Real\20200910 (2)\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
-D:\Project\WooJin\Real\20200910 (2)\Model\obj\Debug\Model.dll
-D:\Project\WooJin\Real\20200910 (2)\Model\obj\Debug\Model.pdb
-D:\Project\WooJin\Real\20200910 (2)\Model\obj\Debug\Model.csprojAssemblyReference.cache
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Model\bin\Debug\Model.dll.config
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Model\bin\Debug\Model.dll
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Model\bin\Debug\Model.pdb
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Model\obj\Debug\Model.csprojAssemblyReference.cache
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Model\obj\Debug\Model.dll
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Model\obj\Debug\Model.pdb
+C:\Users\hs.Moon\Downloads\20200910\Model\bin\Debug\Model.dll.config
+C:\Users\hs.Moon\Downloads\20200910\Model\bin\Debug\Model.dll
+C:\Users\hs.Moon\Downloads\20200910\Model\bin\Debug\Model.pdb
+C:\Users\hs.Moon\Downloads\20200910\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\hs.Moon\Downloads\20200910\Model\obj\Debug\Model.dll
+C:\Users\hs.Moon\Downloads\20200910\Model\obj\Debug\Model.pdb
+C:\Users\hs.Moon\Downloads\20200910\Model\obj\Debug\Model.csprojAssemblyReference.cache

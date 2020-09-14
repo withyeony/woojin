@@ -37,12 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CncNet\Class1.cs" />
     <Compile Include="DefaultType.cs" />
     <Compile Include="DetailProcess.cs" />
+    <Compile Include="DivisionOfProduct.cs" />
+    <Compile Include="Equipment.cs" />
+    <Compile Include="GroupOfProduct.cs" />
     <Compile Include="Notice.cs" />
     <Compile Include="Process.cs" />
     <Compile Include="Machine.cs" />
@@ -50,7 +51,6 @@
     <Compile Include="Error.cs" />
     <Compile Include="ProductItem.cs" />
     <Compile Include="StandardProcessModel.cs" />
-    <Compile Include="Subject.cs" />
     <Compile Include="Table.cs" />
     <Compile Include="Work.cs" />
     <Compile Include="Build.cs" />
@@ -58,9 +58,6 @@
     <Compile Include="CustomerMember.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Member.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="System.Numerics" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

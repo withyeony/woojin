@@ -383,7 +383,7 @@ namespace View
 		{
 
 			tb_Cutomer_No.Text = customer.No.ToString();
-			cb_Cutomer_Group.Text = customer.Group;
+			cb_Cutomer_Group.Text = customer.CGroup;
 			tb_Cutomer_Name.Text = customer.Name;
 			tb_Cutomer_CEO.Text = customer.CEO;
 			tb_Cutomer_Number.Text = customer.Number;
@@ -824,7 +824,7 @@ namespace View
 			{
 				foreach (Customer cus in customers)
 				{
-					dgv_left_DGV.Rows.Add(cus.No, "", cus.Group, cus.Name, cus.CEO, cus.Number, cus.Fax, cus.Transaction);
+					dgv_left_DGV.Rows.Add(cus.No, "", cus.CGroup, cus.Name, cus.CEO, cus.Number, cus.Fax, cus.Transaction);
 				}
 			}
 
@@ -1030,7 +1030,7 @@ namespace View
 			{
 				Customer newCustomer = new Customer();
 				newCustomer.No = Convert.ToInt32(tb_Cutomer_No.Text);
-				newCustomer.Group = cb_Cutomer_Group.SelectedItem.ToString();
+				newCustomer.CGroup = cb_Cutomer_Group.SelectedItem.ToString();
 				newCustomer.Name = tb_Cutomer_Name.Text;
 				newCustomer.CEO = tb_Cutomer_CEO.Text;
 				newCustomer.Number = tb_Cutomer_Number.Text;

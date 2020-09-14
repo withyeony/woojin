@@ -39,10 +39,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Standard\MachineView.cs">
+    <Compile Include="MachineView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Standard\MachineView.Designer.cs">
+    <Compile Include="MachineView.Designer.cs">
       <DependentUpon>MachineView.cs</DependentUpon>
     </Compile>
     <Compile Include="Standard\CustomerInfo.cs">
@@ -134,12 +134,6 @@
     <Compile Include="Standard\StandardTextModal.Designer.cs">
       <DependentUpon>StandardTextModal.cs</DependentUpon>
     </Compile>
-    <Compile Include="TESTPAGE.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TESTPAGE.Designer.cs">
-      <DependentUpon>TESTPAGE.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserForm\UCDefaultCode.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -158,15 +152,17 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Standard\MachineView.resx">
+    <EmbeddedResource Include="MachineView.resx">
       <DependentUpon>MachineView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notice\NoticeBoard.resx">
+      <DependentUpon>NoticeBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Standard\CustomerInfo.resx">
       <DependentUpon>CustomerInfo.cs</DependentUpon>
@@ -211,9 +207,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Standard\StandardTextModal.resx">
       <DependentUpon>StandardTextModal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TESTPAGE.resx">
-      <DependentUpon>TESTPAGE.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserForm\UCDefaultCode.resx">
       <DependentUpon>UCDefaultCode.cs</DependentUpon>

@@ -64,7 +64,6 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.button2 = new System.Windows.Forms.Button();
 			this.tabControl1 = new System.Windows.Forms.TabControl();
-			this.label4 = new System.Windows.Forms.Label();
 			this.menuStrip2.SuspendLayout();
 			this.panel3.SuspendLayout();
 			this.SuspendLayout();
@@ -158,7 +157,7 @@
 			// toolStripMenuItem5
 			// 
 			this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-			this.toolStripMenuItem5.Size = new System.Drawing.Size(155, 22);
+			this.toolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
 			this.toolStripMenuItem5.Tag = "5";
 			this.toolStripMenuItem5.Text = "수주/출하 정보";
 			this.toolStripMenuItem5.Click += new System.EventHandler(this.Manu_Click);
@@ -166,7 +165,7 @@
 			// toolStripMenuItem6
 			// 
 			this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-			this.toolStripMenuItem6.Size = new System.Drawing.Size(155, 22);
+			this.toolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
 			this.toolStripMenuItem6.Tag = "6";
 			this.toolStripMenuItem6.Text = "품목 정보";
 			this.toolStripMenuItem6.Click += new System.EventHandler(this.Manu_Click);
@@ -174,7 +173,7 @@
 			// 부품정보ToolStripMenuItem
 			// 
 			this.부품정보ToolStripMenuItem.Name = "부품정보ToolStripMenuItem";
-			this.부품정보ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+			this.부품정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.부품정보ToolStripMenuItem.Text = "부품 정보";
 			this.부품정보ToolStripMenuItem.Click += new System.EventHandler(this.Manu_Click);
 			// 
@@ -412,24 +411,12 @@
 			this.tabControl1.Size = new System.Drawing.Size(1874, 963);
 			this.tabControl1.TabIndex = 5;
 			// 
-			// label4
-			// 
-			this.label4.AutoSize = true;
-			this.label4.Location = new System.Drawing.Point(873, 22);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(38, 12);
-			this.label4.TabIndex = 6;
-			this.label4.Tag = "ASD";
-			this.label4.Text = "label4";
-			this.label4.Click += new System.EventHandler(this.Manu_Click);
-			// 
 			// BasicForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.Control;
 			this.ClientSize = new System.Drawing.Size(1904, 1041);
-			this.Controls.Add(this.label4);
 			this.Controls.Add(this.tabControl1);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.panel3);
@@ -516,6 +503,5 @@
         private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.TabControl tabControl1;
 		private System.Windows.Forms.ToolStripMenuItem 부품정보ToolStripMenuItem;
-		private System.Windows.Forms.Label label4;
 	}
 }

@@ -9,10 +9,10 @@ namespace Model
     public class Customer
     {
         private int _No;
-        private String _Adress;
-        private String _Group;
+        private String _CGroup;
         private String _Name;
         private String _CEO;
+        private String _Address;
         private String _Number;
         private String _Fax;
         private String _Transaction;
@@ -27,20 +27,13 @@ namespace Model
                 _No = value;
             }
         }
-        public String Adress
+
+        public String CGroup
         {
-            get { return _Adress; }
+            get { return _CGroup; }
             set
             {
-                _Adress = value;
-            }
-        }
-        public String Group
-        {
-            get { return _Group; }
-            set
-            {
-                _Group = value;
+                _CGroup = value;
             }
         }
 
@@ -63,6 +56,15 @@ namespace Model
             set
             {
                 _CEO = value;
+            }
+        }
+
+        public String Address
+        {
+            get { return _Address; }
+            set
+            {
+                _Address = value;
             }
         }
         public String Number

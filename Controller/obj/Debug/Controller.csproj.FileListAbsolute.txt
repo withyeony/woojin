@@ -106,73 +106,19 @@ D:\Project\WooJin\Real\20200907\Controller\obj\Debug\Controller.csproj.CoreCompi
 D:\Project\WooJin\Real\20200907\Controller\obj\Debug\Controller.csproj.CopyComplete
 D:\Project\WooJin\Real\20200907\Controller\obj\Debug\Controller.dll
 D:\Project\WooJin\Real\20200907\Controller\obj\Debug\Controller.pdb
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\Controller.dll.config
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\Controller.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\Controller.pdb
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\Model.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\WooJinDataBase.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\MySql.Data.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\Google.Protobuf.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\Zstandard.Net.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\K4os.Compression.LZ4.Streams.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\BouncyCastle.Crypto.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\Ubiety.Dns.Core.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\Renci.SshNet.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\System.Buffers.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\K4os.Compression.LZ4.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\K4os.Hash.xxHash.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\System.Memory.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\Model.pdb
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\Model.dll.config
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\WooJinDataBase.pdb
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\WooJinDataBase.dll.config
-D:\Project\WooJin\새 폴더\20200910\Controller\bin\Debug\MySql.Data.xml
-D:\Project\WooJin\새 폴더\20200910\Controller\obj\Debug\Controller.csprojAssemblyReference.cache
-D:\Project\WooJin\새 폴더\20200910\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
-D:\Project\WooJin\새 폴더\20200910\Controller\obj\Debug\Controller.csproj.CopyComplete
-D:\Project\WooJin\새 폴더\20200910\Controller\obj\Debug\Controller.dll
-D:\Project\WooJin\새 폴더\20200910\Controller\obj\Debug\Controller.pdb
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\Controller.dll.config
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\Controller.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\Controller.pdb
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\Model.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\WooJinDataBase.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\MySql.Data.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\Google.Protobuf.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\Zstandard.Net.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\K4os.Compression.LZ4.Streams.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\BouncyCastle.Crypto.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\Ubiety.Dns.Core.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\Renci.SshNet.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\System.Buffers.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\K4os.Compression.LZ4.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\K4os.Hash.xxHash.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\System.Memory.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\Model.pdb
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\Model.dll.config
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\WooJinDataBase.pdb
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\WooJinDataBase.dll.config
-D:\Project\WooJin\Real\20200910 (2)\Controller\bin\Debug\MySql.Data.xml
-D:\Project\WooJin\Real\20200910 (2)\Controller\obj\Debug\Controller.csprojAssemblyReference.cache
-D:\Project\WooJin\Real\20200910 (2)\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
-D:\Project\WooJin\Real\20200910 (2)\Controller\obj\Debug\Controller.csproj.CopyComplete
-D:\Project\WooJin\Real\20200910 (2)\Controller\obj\Debug\Controller.dll
-D:\Project\WooJin\Real\20200910 (2)\Controller\obj\Debug\Controller.pdb
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\Controller.dll.config
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\Controller.dll
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\Controller.pdb
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\Model.dll
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\WooJinDataBase.dll
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\MySql.Data.dll
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\Model.pdb
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\Model.dll.config
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\WooJinDataBase.pdb
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\WooJinDataBase.dll.config
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\bin\Debug\MySql.Data.xml
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\obj\Debug\Controller.csprojAssemblyReference.cache
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\obj\Debug\Controller.csproj.CopyComplete
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\obj\Debug\Controller.dll
-C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\Controller\obj\Debug\Controller.pdb
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\Controller.dll.config
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\Controller.dll
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\Controller.pdb
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\Model.dll
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\WooJinDataBase.dll
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\MySql.Data.dll
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\Model.pdb
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\Model.dll.config
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\WooJinDataBase.pdb
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\WooJinDataBase.dll.config
+C:\Users\hs.Moon\Downloads\20200910\Controller\bin\Debug\MySql.Data.xml
+C:\Users\hs.Moon\Downloads\20200910\Controller\obj\Debug\Controller.csprojAssemblyReference.cache
+C:\Users\hs.Moon\Downloads\20200910\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+C:\Users\hs.Moon\Downloads\20200910\Controller\obj\Debug\Controller.csproj.CopyComplete
+C:\Users\hs.Moon\Downloads\20200910\Controller\obj\Debug\Controller.dll
+C:\Users\hs.Moon\Downloads\20200910\Controller\obj\Debug\Controller.pdb
