@@ -29,11 +29,12 @@ namespace View
 			_SelectData = new Notice();  //빈공간 생성
 			this.dgv_Notice_List.Font = new Font("Tahoma", 10, FontStyle.Regular);
 
+			//cb_Notice_Select.Text = "--Select--";
 			cb_Notice_Select.SelectedIndex = 1;
 			GetNotice();
 
-			_SelectData.Title = dgv_Notice_List.Rows[0].Cells[2].Value.ToString();
-			//adm_SelectData.Content = dgv_Notice_List.Rows[0].Cells[4].Value.ToString();
+			//_SelectData.Title = dgv_Notice_List.Rows[0].Cells[2].Value.ToString();
+			//_SelectData.Content = dgv_Notice_List.Rows[0].Cells[4].Value.ToString();
 
 			SetUpdata(_SelectData);
 
@@ -195,9 +196,6 @@ namespace View
 
 		private void btn_search_Click(object sender, EventArgs e)
 		{
-			dgv_Notice_List.Rows.Clear();
-			GridOpen();
-
 			if (cb_Notice_Select.SelectedIndex == -1)
 			{
 
@@ -221,47 +219,32 @@ namespace View
 				}
 
 
-				
+				dgv_Notice_List.Rows.Clear();
 
 				List<Notice> Notices = new List<Notice>();
 				Notices = _NoticeController.FindData(result, txt_searchbox.Text);
 
 
-				if (Notices is null || string.IsNullOrEmpty(txt_searchbox.Text))
+				if (Notices is null)
 				{
-					SetAlarm("검색어를 입력해주세요.");
+					;
 				}
 				else
 				{
-					if(Notices.Count != 0)
-                    {
-						foreach (Notice noti in Notices)
-						{
-							dgv_Notice_List.Rows.Clear();
-							dgv_Notice_List.Rows.Add(noti.No, noti.Title, noti.Name, noti.Date, noti.Content);
+					foreach (Notice noti in Notices)
+					{
+						dgv_Notice_List.Rows.Add(noti.No, noti.Title, noti.Name, noti.Date, noti.Content);
+					}
 
-							_SelectData.Content = dgv_Notice_List.Rows[0].Cells[4].Value.ToString();
-							SetUpdata(_SelectData);
-						}
-					}
-					else
-                    {
-						SetAlarm("검색 된 내용이 없습니다.");
-						txt_searchbox.Text = string.Empty;
-					}
+					//btn_Delete_Apply.Visible = false;
+					//lbl_DataSelect.Text = "Data Select";
+
+					//_SelectData.No = (int)dgv_Notice_List.Rows[0].Cells[0].Value;
+					_SelectData.Content = dgv_Notice_List.Rows[0].Cells[4].Value.ToString();
+
+					SetUpdata(_SelectData);
 				}
 			}
 		}
-
-        private void btn_dgvRefresh_Click(object sender, EventArgs e)
-        {
-			txt_searchbox.Text = string.Empty;
-			GetNotice();
-
-			_SelectData.Title = dgv_Notice_List.Rows[0].Cells[2].Value.ToString();
-			_SelectData.Content = dgv_Notice_List.Rows[0].Cells[4].Value.ToString();
-
-			SetUpdata(_SelectData);
-		}
-    }
+	}
 }

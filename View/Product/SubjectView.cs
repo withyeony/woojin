@@ -134,14 +134,50 @@ namespace View
 		private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
 		{
 			DataGridView dgv = (DataGridView)sender;
-			if (dgv.SelectedRows.Count != 0)	_SelectedOrder = dgv.SelectedRows[0].Cells[0].Value.ToString();
+			if (dgv.SelectedRows.Count != 0 && e.RowIndex != -1)
+			{
+				_SelectedOrder = dgv.SelectedRows[0].Cells[0].Value.ToString();
+			}
+	
+		}
+		private void SubjectListReset()
+		{
+			dataGridView2.Rows.Clear();
+			if (_SelectedOrder.Equals(""))
+			{
+				List<Subject> subjects = new List<Subject>();
 
-		//	List<Sub _SubjectController.GetSubjectList(_SelectedOrder);
-
-
-
-			///subject model 만들고 subject grid띄우기 작업부터 하면됨 할일
+				subjects = _SubjectController.GetSubJectList(_SelectedOrder);
+				if (subjects is null)
+				{
+					;
+				}
+				else
+				{
+					foreach (Subject subject in subjects)
+					{
+						dataGridView2.Rows.Add(subject.No, subject.OrderNo, subject.State, subject.Name, subject.Designer, subject.CAM, subject.Assembly);
+					}
+					foreach (DataGridViewRow dgvr in dataGridView2.Rows)
+					{
+						foreach (Subject subject in subjects)
+						{
+							if ((int)dgvr.Cells[0].Value == subject.No)
+							{
+								dgvr.Cells[7].Style.BackColor = Color.FromArgb(Convert.ToInt32(subject.Color1));
+								dgvr.Cells[8].Style.BackColor = Color.FromArgb(Convert.ToInt32(subject.Color2));
+								dgvr.Cells[7].Style.SelectionBackColor = Color.FromArgb(Convert.ToInt32(subject.Color1));
+								dgvr.Cells[8].Style.SelectionBackColor = Color.FromArgb(Convert.ToInt32(subject.Color2));
+							}
+						}
+					}
+				}
+			}
 		}
 
+		private void btn_Delete_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

@@ -24,5 +24,10 @@ namespace Controller
 		{
 			return dataBase.GetListSelectOrder(result, text);
 		}
+
+		public List<Subject> GetSubJectList(string OrderNo)
+		{
+			return dataBase.GetSubJectList(OrderNo);
+		}
 	}
 }

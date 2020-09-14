@@ -173,41 +173,138 @@ D:\Project\WooJin\Real\20200907\View\obj\Debug\View.PartView.resources
 D:\Project\WooJin\Real\20200907\View\obj\Debug\View.SubjectView.resources
 D:\Project\WooJin\Real\20200907\View\obj\Debug\View.CustomerInfo.resources
 D:\Project\WooJin\Real\20200907\View\obj\Debug\View.MachineView.resources
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\View.dll.config
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\View.dll
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\View.pdb
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\Controller.dll
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\Model.dll
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\WooJinDataBase.dll
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\MySql.Data.dll
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\Controller.pdb
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\Controller.dll.config
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\Model.pdb
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\Model.dll.config
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\WooJinDataBase.pdb
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\WooJinDataBase.dll.config
-C:\Users\hs.Moon\Downloads\20200910\View\bin\Debug\MySql.Data.xml
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.csprojAssemblyReference.cache
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.MachineView.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.CustomerInfo.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.PartView.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.SubjectView.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.OrderView.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.MemberView.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.DefaultCode.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.Alarm.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.BasicForm.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.StandardProcess.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.LoginForm.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.MainForm.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.PreviewOrder.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.Properties.Resources.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.StandardTextModal.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.UCDefaultCode.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.UCStandardProcess.resources
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.csproj.GenerateResource.cache
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.csproj.CoreCompileInputs.cache
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.csproj.CopyComplete
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.dll
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.pdb
-C:\Users\hs.Moon\Downloads\20200910\View\obj\Debug\View.NoticeBoard.resources
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\View.dll.config
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\View.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\View.pdb
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\Controller.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\Model.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\WooJinDataBase.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\MySql.Data.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\Google.Protobuf.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\Zstandard.Net.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\BouncyCastle.Crypto.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\Ubiety.Dns.Core.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\Renci.SshNet.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\System.Buffers.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\K4os.Compression.LZ4.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\K4os.Hash.xxHash.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\System.Memory.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\Controller.pdb
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\Controller.dll.config
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\Model.pdb
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\Model.dll.config
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\WooJinDataBase.pdb
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\WooJinDataBase.dll.config
+D:\Project\WooJin\새 폴더\20200910\View\bin\Debug\MySql.Data.xml
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.csprojAssemblyReference.cache
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.MachineView.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.CustomerInfo.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.PartView.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.SubjectView.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.OrderView.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.MemberView.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.DefaultCode.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.Alarm.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.BasicForm.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.StandardProcess.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.LoginForm.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.MainForm.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.PreviewOrder.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.Properties.Resources.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.StandardTextModal.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.UCDefaultCode.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.UCStandardProcess.resources
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.csproj.GenerateResource.cache
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.csproj.CopyComplete
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.dll
+D:\Project\WooJin\새 폴더\20200910\View\obj\Debug\View.pdb
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\View.dll.config
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\View.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\View.pdb
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\Controller.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\Model.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\WooJinDataBase.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\MySql.Data.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\Google.Protobuf.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\Zstandard.Net.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\BouncyCastle.Crypto.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\Ubiety.Dns.Core.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\Renci.SshNet.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\System.Buffers.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\K4os.Compression.LZ4.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\K4os.Hash.xxHash.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\System.Memory.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\Controller.pdb
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\Controller.dll.config
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\Model.pdb
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\Model.dll.config
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\WooJinDataBase.pdb
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\WooJinDataBase.dll.config
+D:\Project\WooJin\Real\20200910 (2)\View\bin\Debug\MySql.Data.xml
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.csprojAssemblyReference.cache
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.MachineView.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.CustomerInfo.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.PartView.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.SubjectView.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.OrderView.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.MemberView.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.DefaultCode.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.Alarm.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.BasicForm.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.StandardProcess.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.LoginForm.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.MainForm.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.PreviewOrder.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.Properties.Resources.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.StandardTextModal.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.UCDefaultCode.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.UCStandardProcess.resources
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.csproj.GenerateResource.cache
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.csproj.CopyComplete
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.dll
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.pdb
+D:\Project\WooJin\Real\20200910 (2)\View\obj\Debug\View.TESTPAGE.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\View.dll.config
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\View.dll
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\View.pdb
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\Controller.dll
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\Model.dll
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\WooJinDataBase.dll
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\MySql.Data.dll
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\Controller.pdb
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\Controller.dll.config
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\Model.pdb
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\Model.dll.config
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\WooJinDataBase.pdb
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\WooJinDataBase.dll.config
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\bin\Debug\MySql.Data.xml
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.csprojAssemblyReference.cache
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.MachineView.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.CustomerInfo.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.PartView.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.SubjectView.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.OrderView.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.MemberView.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.DefaultCode.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.Alarm.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.BasicForm.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.StandardProcess.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.LoginForm.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.MainForm.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.PreviewOrder.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.StandardTextModal.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.TESTPAGE.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.UCDefaultCode.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.UCStandardProcess.resources
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.csproj.CopyComplete
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.dll
+C:\Users\hs.Moon\Documents\카카오톡 받은 파일\20200914\View\obj\Debug\View.pdb

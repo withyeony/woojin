@@ -30,27 +30,8 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_Notice_List = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_write = new System.Windows.Forms.Button();
             this.pnl_read = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btn_search = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txt_searchbox = new System.Windows.Forms.TextBox();
-            this.cb_Notice_Select = new System.Windows.Forms.ComboBox();
-            this.pnl_write = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txt_write_content = new System.Windows.Forms.TextBox();
-            this.txt_write_title = new System.Windows.Forms.TextBox();
-            this.btn_write_check = new System.Windows.Forms.Button();
-            this.btn_write_cancel = new System.Windows.Forms.Button();
-            this.read_write = new System.Windows.Forms.Label();
             this.pnl_modify = new System.Windows.Forms.Panel();
             this.btn_modify_check = new System.Windows.Forms.Button();
             this.btn_modify_cancel = new System.Windows.Forms.Button();
@@ -61,7 +42,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.modify_content = new System.Windows.Forms.TextBox();
             this.modify_title = new System.Windows.Forms.TextBox();
-            this.read_title = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -71,13 +51,32 @@
             this.btn_delete = new System.Windows.Forms.Button();
             this.btn_modify = new System.Windows.Forms.Button();
             this.read_content = new System.Windows.Forms.TextBox();
+            this.pnl_write = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt_write_content = new System.Windows.Forms.TextBox();
+            this.txt_write_title = new System.Windows.Forms.TextBox();
+            this.btn_write_check = new System.Windows.Forms.Button();
+            this.btn_write_cancel = new System.Windows.Forms.Button();
             this.btn_close = new System.Windows.Forms.Button();
-            this.btn_dgvRefresh = new System.Windows.Forms.Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.read_title = new System.Windows.Forms.Label();
+            this.read_write = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.cb_Notice_Select = new System.Windows.Forms.ComboBox();
+            this.txt_searchbox = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.btn_search = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Notice_List)).BeginInit();
             this.pnl_read.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.pnl_write.SuspendLayout();
             this.pnl_modify.SuspendLayout();
+            this.pnl_write.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgv_Notice_List
@@ -86,8 +85,8 @@
             this.dgv_Notice_List.AllowUserToDeleteRows = false;
             this.dgv_Notice_List.AllowUserToResizeColumns = false;
             this.dgv_Notice_List.AllowUserToResizeRows = false;
-            this.dgv_Notice_List.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dgv_Notice_List.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgv_Notice_List.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgv_Notice_List.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -116,43 +115,6 @@
             this.dgv_Notice_List.Size = new System.Drawing.Size(910, 798);
             this.dgv_Notice_List.TabIndex = 0;
             this.dgv_Notice_List.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Notice_List_CellClick);
-            // 
-            // Column1
-            // 
-            this.Column1.FillWeight = 20F;
-            this.Column1.HeaderText = "번호";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 20;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "제목";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.FillWeight = 30F;
-            this.Column3.HeaderText = "작성자";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Width = 30;
-            // 
-            // Column4
-            // 
-            this.Column4.FillWeight = 30F;
-            this.Column4.HeaderText = "날짜";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.Width = 30;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "내용";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            this.Column5.Visible = false;
             // 
             // btn_write
             // 
@@ -189,155 +151,6 @@
             this.pnl_read.Name = "pnl_read";
             this.pnl_read.Size = new System.Drawing.Size(910, 798);
             this.pnl_read.TabIndex = 2;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.btn_search);
-            this.panel3.Controls.Add(this.label10);
-            this.panel3.Controls.Add(this.label9);
-            this.panel3.Controls.Add(this.txt_searchbox);
-            this.panel3.Controls.Add(this.cb_Notice_Select);
-            this.panel3.Location = new System.Drawing.Point(31, 10);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(796, 129);
-            this.panel3.TabIndex = 20;
-            // 
-            // btn_search
-            // 
-            this.btn_search.BackColor = System.Drawing.Color.Transparent;
-            this.btn_search.Location = new System.Drawing.Point(629, 29);
-            this.btn_search.Name = "btn_search";
-            this.btn_search.Size = new System.Drawing.Size(121, 73);
-            this.btn_search.TabIndex = 4;
-            this.btn_search.Text = "검색";
-            this.btn_search.UseVisualStyleBackColor = false;
-            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(396, 35);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 12);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "검색어";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(109, 35);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(29, 12);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "항목";
-            // 
-            // txt_searchbox
-            // 
-            this.txt_searchbox.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-            this.txt_searchbox.Location = new System.Drawing.Point(269, 65);
-            this.txt_searchbox.Multiline = true;
-            this.txt_searchbox.Name = "txt_searchbox";
-            this.txt_searchbox.Size = new System.Drawing.Size(303, 33);
-            this.txt_searchbox.TabIndex = 1;
-            // 
-            // cb_Notice_Select
-            // 
-            this.cb_Notice_Select.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cb_Notice_Select.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cb_Notice_Select.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-            this.cb_Notice_Select.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.cb_Notice_Select.FormattingEnabled = true;
-            this.cb_Notice_Select.ItemHeight = 25;
-            this.cb_Notice_Select.Items.AddRange(new object[] {
-            "제목",
-            "글내용"});
-            this.cb_Notice_Select.Location = new System.Drawing.Point(68, 65);
-            this.cb_Notice_Select.Name = "cb_Notice_Select";
-            this.cb_Notice_Select.Size = new System.Drawing.Size(125, 33);
-            this.cb_Notice_Select.TabIndex = 1;
-            // 
-            // pnl_write
-            // 
-            this.pnl_write.Controls.Add(this.label2);
-            this.pnl_write.Controls.Add(this.label1);
-            this.pnl_write.Controls.Add(this.txt_write_content);
-            this.pnl_write.Controls.Add(this.txt_write_title);
-            this.pnl_write.Controls.Add(this.btn_write_check);
-            this.pnl_write.Controls.Add(this.btn_write_cancel);
-            this.pnl_write.Location = new System.Drawing.Point(0, 0);
-            this.pnl_write.Name = "pnl_write";
-            this.pnl_write.Size = new System.Drawing.Size(910, 798);
-            this.pnl_write.TabIndex = 3;
-            this.pnl_write.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(109, 344);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 12);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "내용";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(109, 284);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 12);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "제목";
-            // 
-            // txt_write_content
-            // 
-            this.txt_write_content.Location = new System.Drawing.Point(153, 325);
-            this.txt_write_content.Multiline = true;
-            this.txt_write_content.Name = "txt_write_content";
-            this.txt_write_content.Size = new System.Drawing.Size(643, 314);
-            this.txt_write_content.TabIndex = 3;
-            // 
-            // txt_write_title
-            // 
-            this.txt_write_title.Location = new System.Drawing.Point(153, 265);
-            this.txt_write_title.Multiline = true;
-            this.txt_write_title.Name = "txt_write_title";
-            this.txt_write_title.Size = new System.Drawing.Size(643, 33);
-            this.txt_write_title.TabIndex = 2;
-            // 
-            // btn_write_check
-            // 
-            this.btn_write_check.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_write_check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_write_check.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_write_check.Location = new System.Drawing.Point(510, 719);
-            this.btn_write_check.Name = "btn_write_check";
-            this.btn_write_check.Size = new System.Drawing.Size(97, 58);
-            this.btn_write_check.TabIndex = 1;
-            this.btn_write_check.Text = "확인";
-            this.btn_write_check.UseVisualStyleBackColor = false;
-            this.btn_write_check.Click += new System.EventHandler(this.btn_write_check_Click);
-            // 
-            // btn_write_cancel
-            // 
-            this.btn_write_cancel.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_write_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_write_cancel.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_write_cancel.Location = new System.Drawing.Point(364, 719);
-            this.btn_write_cancel.Name = "btn_write_cancel";
-            this.btn_write_cancel.Size = new System.Drawing.Size(97, 58);
-            this.btn_write_cancel.TabIndex = 0;
-            this.btn_write_cancel.Text = "취소";
-            this.btn_write_cancel.UseVisualStyleBackColor = false;
-            this.btn_write_cancel.Click += new System.EventHandler(this.btn_write_cancel_Click);
-            // 
-            // read_write
-            // 
-            this.read_write.AutoSize = true;
-            this.read_write.Location = new System.Drawing.Point(169, 251);
-            this.read_write.Name = "read_write";
-            this.read_write.Size = new System.Drawing.Size(65, 12);
-            this.read_write.TabIndex = 19;
-            this.read_write.Text = "read_write";
             // 
             // pnl_modify
             // 
@@ -455,15 +268,6 @@
             this.modify_title.Size = new System.Drawing.Size(643, 33);
             this.modify_title.TabIndex = 15;
             // 
-            // read_title
-            // 
-            this.read_title.AutoSize = true;
-            this.read_title.Location = new System.Drawing.Point(169, 188);
-            this.read_title.Name = "read_title";
-            this.read_title.Size = new System.Drawing.Size(65, 12);
-            this.read_title.TabIndex = 18;
-            this.read_title.Text = "read_title";
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -561,6 +365,80 @@
             this.read_content.Size = new System.Drawing.Size(643, 446);
             this.read_content.TabIndex = 3;
             // 
+            // pnl_write
+            // 
+            this.pnl_write.Controls.Add(this.label2);
+            this.pnl_write.Controls.Add(this.label1);
+            this.pnl_write.Controls.Add(this.txt_write_content);
+            this.pnl_write.Controls.Add(this.txt_write_title);
+            this.pnl_write.Controls.Add(this.btn_write_check);
+            this.pnl_write.Controls.Add(this.btn_write_cancel);
+            this.pnl_write.Location = new System.Drawing.Point(0, 0);
+            this.pnl_write.Name = "pnl_write";
+            this.pnl_write.Size = new System.Drawing.Size(910, 798);
+            this.pnl_write.TabIndex = 3;
+            this.pnl_write.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(109, 344);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(29, 12);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "내용";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(109, 284);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "제목";
+            // 
+            // txt_write_content
+            // 
+            this.txt_write_content.Location = new System.Drawing.Point(153, 325);
+            this.txt_write_content.Multiline = true;
+            this.txt_write_content.Name = "txt_write_content";
+            this.txt_write_content.Size = new System.Drawing.Size(643, 314);
+            this.txt_write_content.TabIndex = 3;
+            // 
+            // txt_write_title
+            // 
+            this.txt_write_title.Location = new System.Drawing.Point(153, 265);
+            this.txt_write_title.Multiline = true;
+            this.txt_write_title.Name = "txt_write_title";
+            this.txt_write_title.Size = new System.Drawing.Size(643, 33);
+            this.txt_write_title.TabIndex = 2;
+            // 
+            // btn_write_check
+            // 
+            this.btn_write_check.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn_write_check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_write_check.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_write_check.Location = new System.Drawing.Point(510, 719);
+            this.btn_write_check.Name = "btn_write_check";
+            this.btn_write_check.Size = new System.Drawing.Size(97, 58);
+            this.btn_write_check.TabIndex = 1;
+            this.btn_write_check.Text = "확인";
+            this.btn_write_check.UseVisualStyleBackColor = false;
+            this.btn_write_check.Click += new System.EventHandler(this.btn_write_check_Click);
+            // 
+            // btn_write_cancel
+            // 
+            this.btn_write_cancel.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn_write_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_write_cancel.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_write_cancel.Location = new System.Drawing.Point(364, 719);
+            this.btn_write_cancel.Name = "btn_write_cancel";
+            this.btn_write_cancel.Size = new System.Drawing.Size(97, 58);
+            this.btn_write_cancel.TabIndex = 0;
+            this.btn_write_cancel.Text = "취소";
+            this.btn_write_cancel.UseVisualStyleBackColor = false;
+            this.btn_write_cancel.Click += new System.EventHandler(this.btn_write_cancel_Click);
+            // 
             // btn_close
             // 
             this.btn_close.BackColor = System.Drawing.SystemColors.ControlDark;
@@ -575,23 +453,132 @@
             this.btn_close.UseVisualStyleBackColor = false;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
-            // btn_dgvRefresh
+            // Column1
             // 
-            this.btn_dgvRefresh.Location = new System.Drawing.Point(1586, 861);
-            this.btn_dgvRefresh.Name = "btn_dgvRefresh";
-            this.btn_dgvRefresh.Size = new System.Drawing.Size(166, 45);
-            this.btn_dgvRefresh.TabIndex = 49;
-            this.btn_dgvRefresh.Tag = "";
-            this.btn_dgvRefresh.Text = "새로고침";
-            this.btn_dgvRefresh.UseVisualStyleBackColor = true;
-            this.btn_dgvRefresh.Click += new System.EventHandler(this.btn_dgvRefresh_Click);
+            this.Column1.FillWeight = 20F;
+            this.Column1.HeaderText = "번호";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 20;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "제목";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.FillWeight = 30F;
+            this.Column3.HeaderText = "작성자";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 30;
+            // 
+            // Column4
+            // 
+            this.Column4.FillWeight = 30F;
+            this.Column4.HeaderText = "날짜";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Width = 30;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "내용";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            this.Column5.Visible = false;
+            // 
+            // read_title
+            // 
+            this.read_title.AutoSize = true;
+            this.read_title.Location = new System.Drawing.Point(169, 188);
+            this.read_title.Name = "read_title";
+            this.read_title.Size = new System.Drawing.Size(65, 12);
+            this.read_title.TabIndex = 18;
+            this.read_title.Text = "read_title";
+            // 
+            // read_write
+            // 
+            this.read_write.AutoSize = true;
+            this.read_write.Location = new System.Drawing.Point(169, 251);
+            this.read_write.Name = "read_write";
+            this.read_write.Size = new System.Drawing.Size(65, 12);
+            this.read_write.TabIndex = 19;
+            this.read_write.Text = "read_write";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.btn_search);
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.txt_searchbox);
+            this.panel3.Controls.Add(this.cb_Notice_Select);
+            this.panel3.Location = new System.Drawing.Point(31, 10);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(796, 129);
+            this.panel3.TabIndex = 20;
+            // 
+            // cb_Notice_Select
+            // 
+            this.cb_Notice_Select.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_Notice_Select.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cb_Notice_Select.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
+            this.cb_Notice_Select.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.cb_Notice_Select.FormattingEnabled = true;
+            this.cb_Notice_Select.ItemHeight = 25;
+            this.cb_Notice_Select.Items.AddRange(new object[] {
+            "제목",
+            "글내용"});
+            this.cb_Notice_Select.Location = new System.Drawing.Point(68, 65);
+            this.cb_Notice_Select.Name = "cb_Notice_Select";
+            this.cb_Notice_Select.Size = new System.Drawing.Size(125, 33);
+            this.cb_Notice_Select.TabIndex = 1;
+            // 
+            // txt_searchbox
+            // 
+            this.txt_searchbox.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txt_searchbox.Location = new System.Drawing.Point(269, 65);
+            this.txt_searchbox.Multiline = true;
+            this.txt_searchbox.Name = "txt_searchbox";
+            this.txt_searchbox.Size = new System.Drawing.Size(303, 33);
+            this.txt_searchbox.TabIndex = 1;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(109, 35);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 12);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "항목";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(396, 35);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 12);
+            this.label10.TabIndex = 3;
+            this.label10.Text = "검색어";
+            // 
+            // btn_search
+            // 
+            this.btn_search.BackColor = System.Drawing.Color.Transparent;
+            this.btn_search.Location = new System.Drawing.Point(629, 29);
+            this.btn_search.Name = "btn_search";
+            this.btn_search.Size = new System.Drawing.Size(121, 73);
+            this.btn_search.TabIndex = 4;
+            this.btn_search.Text = "검색";
+            this.btn_search.UseVisualStyleBackColor = false;
+            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
             // NoticeBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1888, 922);
-            this.Controls.Add(this.btn_dgvRefresh);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.pnl_read);
             this.Controls.Add(this.dgv_Notice_List);
@@ -603,12 +590,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Notice_List)).EndInit();
             this.pnl_read.ResumeLayout(false);
             this.pnl_read.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.pnl_write.ResumeLayout(false);
-            this.pnl_write.PerformLayout();
             this.pnl_modify.ResumeLayout(false);
             this.pnl_modify.PerformLayout();
+            this.pnl_write.ResumeLayout(false);
+            this.pnl_write.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -658,6 +645,5 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txt_searchbox;
         private System.Windows.Forms.ComboBox cb_Notice_Select;
-        private System.Windows.Forms.Button btn_dgvRefresh;
     }
 }

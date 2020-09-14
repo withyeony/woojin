@@ -28,10 +28,10 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.button4 = new System.Windows.Forms.Button();
 			this.dtp_Update_Birthday = new System.Windows.Forms.DateTimePicker();
 			this.pnl_Update = new System.Windows.Forms.Panel();
@@ -56,8 +56,6 @@
 			this.label24 = new System.Windows.Forms.Label();
 			this.lbl_44 = new System.Windows.Forms.Label();
 			this.label26 = new System.Windows.Forms.Label();
-			this.dtp_Add_Longevity = new System.Windows.Forms.DateTimePicker();
-			this.dtp_Add_Birthday = new System.Windows.Forms.DateTimePicker();
 			this.lbl_Name = new System.Windows.Forms.Label();
 			this.lbl_ID = new System.Windows.Forms.Label();
 			this.lbl_No = new System.Windows.Forms.Label();
@@ -72,33 +70,9 @@
 			this.label35 = new System.Windows.Forms.Label();
 			this.lbl_DataSelect = new System.Windows.Forms.Label();
 			this.label37 = new System.Windows.Forms.Label();
-			this.tb_Add_Email = new System.Windows.Forms.TextBox();
-			this.tb_Add_Number = new System.Windows.Forms.TextBox();
-			this.cb_Add_Part = new System.Windows.Forms.ComboBox();
-			this.cb_Add_Rank = new System.Windows.Forms.ComboBox();
-			this.tb_Add_Name = new System.Windows.Forms.TextBox();
-			this.tb_Add_Pw = new System.Windows.Forms.TextBox();
-			this.tb_Add_ID = new System.Windows.Forms.TextBox();
-			this.tb_Add_No = new System.Windows.Forms.TextBox();
-			this.button10 = new System.Windows.Forms.Button();
-			this.button9 = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
-			this.button8 = new System.Windows.Forms.Button();
-			this.button7 = new System.Windows.Forms.Button();
-			this.label15 = new System.Windows.Forms.Label();
-			this.label14 = new System.Windows.Forms.Label();
-			this.label13 = new System.Windows.Forms.Label();
-			this.label12 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
-			this.label10 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
 			this.label_6 = new System.Windows.Forms.Panel();
 			this.panel3 = new System.Windows.Forms.Panel();
-			this.pnl_Add = new System.Windows.Forms.Panel();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
 			this.pnl_Select = new System.Windows.Forms.Panel();
 			this.button6 = new System.Windows.Forms.Button();
 			this.lbl_Longevity = new System.Windows.Forms.Label();
@@ -125,22 +99,6 @@
 			this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.label25 = new System.Windows.Forms.Label();
 			this.dataGridView2 = new System.Windows.Forms.DataGridView();
-			this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.panel2 = new System.Windows.Forms.Panel();
-			this.label34 = new System.Windows.Forms.Label();
-			this.button11 = new System.Windows.Forms.Button();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.comboBox1 = new System.Windows.Forms.ComboBox();
-			this.label36 = new System.Windows.Forms.Label();
-			this.label38 = new System.Windows.Forms.Label();
 			this.panel4 = new System.Windows.Forms.Panel();
 			this.label40 = new System.Windows.Forms.Label();
 			this.panel6 = new System.Windows.Forms.Panel();
@@ -158,18 +116,51 @@
 			this.tb_SelectData = new System.Windows.Forms.TextBox();
 			this.cb_SelectBox = new System.Windows.Forms.ComboBox();
 			this.label2 = new System.Windows.Forms.Label();
+			this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			this.label9 = new System.Windows.Forms.Label();
+			this.label10 = new System.Windows.Forms.Label();
+			this.label11 = new System.Windows.Forms.Label();
+			this.label12 = new System.Windows.Forms.Label();
+			this.label13 = new System.Windows.Forms.Label();
+			this.label14 = new System.Windows.Forms.Label();
+			this.label15 = new System.Windows.Forms.Label();
+			this.button7 = new System.Windows.Forms.Button();
+			this.button8 = new System.Windows.Forms.Button();
+			this.button9 = new System.Windows.Forms.Button();
+			this.button10 = new System.Windows.Forms.Button();
+			this.tb_Add_No = new System.Windows.Forms.TextBox();
+			this.tb_Add_ID = new System.Windows.Forms.TextBox();
+			this.tb_Add_Pw = new System.Windows.Forms.TextBox();
+			this.tb_Add_Name = new System.Windows.Forms.TextBox();
+			this.cb_Add_Rank = new System.Windows.Forms.ComboBox();
+			this.cb_Add_Part = new System.Windows.Forms.ComboBox();
+			this.tb_Add_Number = new System.Windows.Forms.TextBox();
+			this.tb_Add_Email = new System.Windows.Forms.TextBox();
+			this.dtp_Add_Birthday = new System.Windows.Forms.DateTimePicker();
+			this.dtp_Add_Longevity = new System.Windows.Forms.DateTimePicker();
+			this.pnl_Add = new System.Windows.Forms.Panel();
 			this.pnl_Update.SuspendLayout();
-			this.label_6.SuspendLayout();
 			this.panel3.SuspendLayout();
-			this.pnl_Add.SuspendLayout();
 			this.pnl_Select.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-			this.panel2.SuspendLayout();
 			this.panel4.SuspendLayout();
 			this.panel6.SuspendLayout();
 			this.panel5.SuspendLayout();
 			this.panel1.SuspendLayout();
+			this.pnl_Add.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// button4
@@ -438,26 +429,6 @@
 			this.label26.TabIndex = 5;
 			this.label26.Text = "번  호";
 			// 
-			// dtp_Add_Longevity
-			// 
-			this.dtp_Add_Longevity.CustomFormat = "yyyy-MM-dd";
-			this.dtp_Add_Longevity.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.dtp_Add_Longevity.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-			this.dtp_Add_Longevity.Location = new System.Drawing.Point(507, 259);
-			this.dtp_Add_Longevity.Name = "dtp_Add_Longevity";
-			this.dtp_Add_Longevity.Size = new System.Drawing.Size(212, 33);
-			this.dtp_Add_Longevity.TabIndex = 64;
-			// 
-			// dtp_Add_Birthday
-			// 
-			this.dtp_Add_Birthday.CustomFormat = "yyyy-MM-dd";
-			this.dtp_Add_Birthday.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.dtp_Add_Birthday.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-			this.dtp_Add_Birthday.Location = new System.Drawing.Point(507, 197);
-			this.dtp_Add_Birthday.Name = "dtp_Add_Birthday";
-			this.dtp_Add_Birthday.Size = new System.Drawing.Size(212, 33);
-			this.dtp_Add_Birthday.TabIndex = 63;
-			// 
 			// lbl_Name
 			// 
 			this.lbl_Name.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
@@ -598,108 +569,6 @@
 			this.label37.TabIndex = 5;
 			this.label37.Text = "번  호";
 			// 
-			// tb_Add_Email
-			// 
-			this.tb_Add_Email.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.tb_Add_Email.Location = new System.Drawing.Point(507, 135);
-			this.tb_Add_Email.Name = "tb_Add_Email";
-			this.tb_Add_Email.Size = new System.Drawing.Size(212, 33);
-			this.tb_Add_Email.TabIndex = 31;
-			// 
-			// tb_Add_Number
-			// 
-			this.tb_Add_Number.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.tb_Add_Number.Location = new System.Drawing.Point(507, 73);
-			this.tb_Add_Number.Name = "tb_Add_Number";
-			this.tb_Add_Number.Size = new System.Drawing.Size(212, 33);
-			this.tb_Add_Number.TabIndex = 30;
-			// 
-			// cb_Add_Part
-			// 
-			this.cb_Add_Part.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cb_Add_Part.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.cb_Add_Part.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.cb_Add_Part.FormattingEnabled = true;
-			this.cb_Add_Part.Items.AddRange(new object[] {
-            "번호",
-            "직급",
-            "부서",
-            "이름"});
-			this.cb_Add_Part.Location = new System.Drawing.Point(119, 383);
-			this.cb_Add_Part.Name = "cb_Add_Part";
-			this.cb_Add_Part.Size = new System.Drawing.Size(167, 33);
-			this.cb_Add_Part.TabIndex = 29;
-			// 
-			// cb_Add_Rank
-			// 
-			this.cb_Add_Rank.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cb_Add_Rank.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.cb_Add_Rank.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.cb_Add_Rank.FormattingEnabled = true;
-			this.cb_Add_Rank.Items.AddRange(new object[] {
-            "번호",
-            "직급",
-            "부서",
-            "이름"});
-			this.cb_Add_Rank.Location = new System.Drawing.Point(119, 321);
-			this.cb_Add_Rank.Name = "cb_Add_Rank";
-			this.cb_Add_Rank.Size = new System.Drawing.Size(167, 33);
-			this.cb_Add_Rank.TabIndex = 28;
-			// 
-			// tb_Add_Name
-			// 
-			this.tb_Add_Name.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.tb_Add_Name.Location = new System.Drawing.Point(119, 259);
-			this.tb_Add_Name.Name = "tb_Add_Name";
-			this.tb_Add_Name.Size = new System.Drawing.Size(167, 33);
-			this.tb_Add_Name.TabIndex = 27;
-			// 
-			// tb_Add_Pw
-			// 
-			this.tb_Add_Pw.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.tb_Add_Pw.Location = new System.Drawing.Point(119, 197);
-			this.tb_Add_Pw.Name = "tb_Add_Pw";
-			this.tb_Add_Pw.Size = new System.Drawing.Size(167, 33);
-			this.tb_Add_Pw.TabIndex = 26;
-			// 
-			// tb_Add_ID
-			// 
-			this.tb_Add_ID.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.tb_Add_ID.Location = new System.Drawing.Point(119, 135);
-			this.tb_Add_ID.Name = "tb_Add_ID";
-			this.tb_Add_ID.Size = new System.Drawing.Size(167, 33);
-			this.tb_Add_ID.TabIndex = 25;
-			// 
-			// tb_Add_No
-			// 
-			this.tb_Add_No.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.tb_Add_No.Location = new System.Drawing.Point(119, 73);
-			this.tb_Add_No.Name = "tb_Add_No";
-			this.tb_Add_No.Size = new System.Drawing.Size(167, 33);
-			this.tb_Add_No.TabIndex = 24;
-			// 
-			// button10
-			// 
-			this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button10.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.button10.Location = new System.Drawing.Point(593, 410);
-			this.button10.Name = "button10";
-			this.button10.Size = new System.Drawing.Size(126, 36);
-			this.button10.TabIndex = 23;
-			this.button10.Text = "닫기";
-			this.button10.UseVisualStyleBackColor = true;
-			// 
-			// button9
-			// 
-			this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button9.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.button9.Location = new System.Drawing.Point(461, 410);
-			this.button9.Name = "button9";
-			this.button9.Size = new System.Drawing.Size(126, 36);
-			this.button9.TabIndex = 22;
-			this.button9.Text = "추가";
-			this.button9.UseVisualStyleBackColor = true;
-			// 
 			// label1
 			// 
 			this.label1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
@@ -710,125 +579,12 @@
 			this.label1.TabIndex = 20;
 			this.label1.Text = "Order List";
 			// 
-			// button8
-			// 
-			this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button8.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.button8.Location = new System.Drawing.Point(292, 134);
-			this.button8.Name = "button8";
-			this.button8.Size = new System.Drawing.Size(81, 33);
-			this.button8.TabIndex = 21;
-			this.button8.Text = "Check";
-			this.button8.UseVisualStyleBackColor = true;
-			// 
-			// button7
-			// 
-			this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button7.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.button7.Location = new System.Drawing.Point(292, 72);
-			this.button7.Name = "button7";
-			this.button7.Size = new System.Drawing.Size(81, 33);
-			this.button7.TabIndex = 20;
-			this.button7.Text = "Check";
-			this.button7.UseVisualStyleBackColor = true;
-			// 
-			// label15
-			// 
-			this.label15.AutoSize = true;
-			this.label15.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label15.Location = new System.Drawing.Point(419, 262);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(69, 25);
-			this.label15.TabIndex = 19;
-			this.label15.Text = "입사일";
-			// 
-			// label14
-			// 
-			this.label14.AutoSize = true;
-			this.label14.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label14.Location = new System.Drawing.Point(419, 200);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(64, 25);
-			this.label14.TabIndex = 18;
-			this.label14.Text = "생  일";
-			// 
-			// label13
-			// 
-			this.label13.AutoSize = true;
-			this.label13.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label13.Location = new System.Drawing.Point(419, 138);
-			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(69, 25);
-			this.label13.TabIndex = 17;
-			this.label13.Text = "이메일";
-			// 
-			// label12
-			// 
-			this.label12.AutoSize = true;
-			this.label12.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label12.Location = new System.Drawing.Point(419, 76);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(88, 25);
-			this.label12.TabIndex = 16;
-			this.label12.Text = "전화번호";
-			// 
-			// label11
-			// 
-			this.label11.AutoSize = true;
-			this.label11.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label11.Location = new System.Drawing.Point(44, 386);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(64, 25);
-			this.label11.TabIndex = 15;
-			this.label11.Text = "부  서";
-			// 
-			// label10
-			// 
-			this.label10.AutoSize = true;
-			this.label10.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label10.Location = new System.Drawing.Point(44, 324);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(64, 25);
-			this.label10.TabIndex = 14;
-			this.label10.Text = "직  급";
-			// 
-			// label9
-			// 
-			this.label9.AutoSize = true;
-			this.label9.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label9.Location = new System.Drawing.Point(44, 262);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(64, 25);
-			this.label9.TabIndex = 13;
-			this.label9.Text = "이  름";
-			// 
-			// label8
-			// 
-			this.label8.AutoSize = true;
-			this.label8.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label8.Location = new System.Drawing.Point(44, 200);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(64, 25);
-			this.label8.TabIndex = 12;
-			this.label8.Text = "P   W";
-			// 
-			// label7
-			// 
-			this.label7.AutoSize = true;
-			this.label7.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label7.Location = new System.Drawing.Point(44, 138);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(60, 25);
-			this.label7.TabIndex = 11;
-			this.label7.Text = "I    D";
-			// 
 			// label_6
 			// 
 			this.label_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.label_6.Controls.Add(this.panel3);
-			this.label_6.Location = new System.Drawing.Point(1001, 672);
+			this.label_6.Location = new System.Drawing.Point(1001, 573);
 			this.label_6.Name = "label_6";
-			this.label_6.Size = new System.Drawing.Size(745, 166);
+			this.label_6.Size = new System.Drawing.Size(745, 265);
 			this.label_6.TabIndex = 16;
 			// 
 			// panel3
@@ -837,64 +593,10 @@
 			this.panel3.Controls.Add(this.pnl_Add);
 			this.panel3.Controls.Add(this.pnl_Select);
 			this.panel3.Controls.Add(this.pnl_Update);
-			this.panel3.Location = new System.Drawing.Point(245, 41);
+			this.panel3.Location = new System.Drawing.Point(72, 347);
 			this.panel3.Name = "panel3";
 			this.panel3.Size = new System.Drawing.Size(745, 464);
 			this.panel3.TabIndex = 18;
-			// 
-			// pnl_Add
-			// 
-			this.pnl_Add.Controls.Add(this.dtp_Add_Longevity);
-			this.pnl_Add.Controls.Add(this.dtp_Add_Birthday);
-			this.pnl_Add.Controls.Add(this.tb_Add_Email);
-			this.pnl_Add.Controls.Add(this.tb_Add_Number);
-			this.pnl_Add.Controls.Add(this.cb_Add_Part);
-			this.pnl_Add.Controls.Add(this.cb_Add_Rank);
-			this.pnl_Add.Controls.Add(this.tb_Add_Name);
-			this.pnl_Add.Controls.Add(this.tb_Add_Pw);
-			this.pnl_Add.Controls.Add(this.tb_Add_ID);
-			this.pnl_Add.Controls.Add(this.tb_Add_No);
-			this.pnl_Add.Controls.Add(this.button10);
-			this.pnl_Add.Controls.Add(this.button9);
-			this.pnl_Add.Controls.Add(this.button8);
-			this.pnl_Add.Controls.Add(this.button7);
-			this.pnl_Add.Controls.Add(this.label15);
-			this.pnl_Add.Controls.Add(this.label14);
-			this.pnl_Add.Controls.Add(this.label13);
-			this.pnl_Add.Controls.Add(this.label12);
-			this.pnl_Add.Controls.Add(this.label11);
-			this.pnl_Add.Controls.Add(this.label10);
-			this.pnl_Add.Controls.Add(this.label9);
-			this.pnl_Add.Controls.Add(this.label8);
-			this.pnl_Add.Controls.Add(this.label7);
-			this.pnl_Add.Controls.Add(this.label6);
-			this.pnl_Add.Controls.Add(this.label5);
-			this.pnl_Add.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.pnl_Add.Location = new System.Drawing.Point(0, 0);
-			this.pnl_Add.Name = "pnl_Add";
-			this.pnl_Add.Size = new System.Drawing.Size(743, 462);
-			this.pnl_Add.TabIndex = 0;
-			// 
-			// label6
-			// 
-			this.label6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-			this.label6.Dock = System.Windows.Forms.DockStyle.Top;
-			this.label6.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label6.Location = new System.Drawing.Point(0, 0);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(743, 25);
-			this.label6.TabIndex = 10;
-			this.label6.Text = "Data ADD";
-			// 
-			// label5
-			// 
-			this.label5.AutoSize = true;
-			this.label5.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label5.Location = new System.Drawing.Point(44, 76);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(64, 25);
-			this.label5.TabIndex = 5;
-			this.label5.Text = "번  호";
 			// 
 			// pnl_Select
 			// 
@@ -994,34 +696,37 @@
 			// 
 			this.btn_Add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.btn_Add.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.btn_Add.Location = new System.Drawing.Point(911, 671);
+			this.btn_Add.Location = new System.Drawing.Point(912, 573);
 			this.btn_Add.Name = "btn_Add";
 			this.btn_Add.Size = new System.Drawing.Size(83, 49);
 			this.btn_Add.TabIndex = 5;
 			this.btn_Add.Text = "추가";
 			this.btn_Add.UseVisualStyleBackColor = true;
+			this.btn_Add.Click += new System.EventHandler(this.btn_Delete_Click);
 			// 
 			// btn_Update
 			// 
 			this.btn_Update.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.btn_Update.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.btn_Update.Location = new System.Drawing.Point(911, 730);
+			this.btn_Update.Location = new System.Drawing.Point(912, 632);
 			this.btn_Update.Name = "btn_Update";
 			this.btn_Update.Size = new System.Drawing.Size(83, 49);
 			this.btn_Update.TabIndex = 4;
 			this.btn_Update.Text = "수정";
 			this.btn_Update.UseVisualStyleBackColor = true;
+			this.btn_Update.Click += new System.EventHandler(this.btn_Delete_Click);
 			// 
 			// btn_Delete
 			// 
 			this.btn_Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.btn_Delete.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.btn_Delete.Location = new System.Drawing.Point(911, 789);
+			this.btn_Delete.Location = new System.Drawing.Point(912, 691);
 			this.btn_Delete.Name = "btn_Delete";
 			this.btn_Delete.Size = new System.Drawing.Size(83, 49);
 			this.btn_Delete.TabIndex = 3;
 			this.btn_Delete.Text = "삭제";
 			this.btn_Delete.UseVisualStyleBackColor = true;
+			this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
 			// 
 			// button3
 			// 
@@ -1050,7 +755,7 @@
 			// 
 			this.label_89.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
 			this.label_89.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label_89.Location = new System.Drawing.Point(912, 644);
+			this.label_89.Location = new System.Drawing.Point(912, 545);
 			this.label_89.Name = "label_89";
 			this.label_89.Size = new System.Drawing.Size(834, 25);
 			this.label_89.TabIndex = 17;
@@ -1072,8 +777,8 @@
 			this.dataGridView1.AllowUserToDeleteRows = false;
 			this.dataGridView1.AllowUserToResizeColumns = false;
 			this.dataGridView1.AllowUserToResizeRows = false;
-			dataGridViewCellStyle1.BackColor = System.Drawing.Color.WhiteSmoke;
-			this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+			dataGridViewCellStyle5.BackColor = System.Drawing.Color.WhiteSmoke;
+			this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
 			this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -1090,14 +795,14 @@
             this.Column6,
             this.Column7,
             this.Column8});
-			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-			dataGridViewCellStyle2.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-			dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+			dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+			dataGridViewCellStyle6.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+			dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+			dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
+			dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.Desktop;
+			dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
 			this.dataGridView1.Location = new System.Drawing.Point(12, 40);
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.ReadOnly = true;
@@ -1172,8 +877,8 @@
 			this.dataGridView2.AllowUserToDeleteRows = false;
 			this.dataGridView2.AllowUserToResizeColumns = false;
 			this.dataGridView2.AllowUserToResizeRows = false;
-			dataGridViewCellStyle3.BackColor = System.Drawing.Color.WhiteSmoke;
-			this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+			dataGridViewCellStyle7.BackColor = System.Drawing.Color.WhiteSmoke;
+			this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
 			this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -1191,14 +896,14 @@
             this.Column14,
             this.Column16,
             this.Column17});
-			dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-			dataGridViewCellStyle4.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-			dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-			dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-			dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle4;
+			dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+			dataGridViewCellStyle8.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+			dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+			dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
+			dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.Desktop;
+			dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle8;
 			this.dataGridView2.Location = new System.Drawing.Point(912, 40);
 			this.dataGridView2.Name = "dataGridView2";
 			this.dataGridView2.ReadOnly = true;
@@ -1207,139 +912,6 @@
 			this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
 			this.dataGridView2.Size = new System.Drawing.Size(822, 502);
 			this.dataGridView2.TabIndex = 21;
-			// 
-			// Column9
-			// 
-			this.Column9.HeaderText = "고유번호";
-			this.Column9.Name = "Column9";
-			this.Column9.ReadOnly = true;
-			this.Column9.Visible = false;
-			// 
-			// Column10
-			// 
-			this.Column10.HeaderText = "제번";
-			this.Column10.Name = "Column10";
-			this.Column10.ReadOnly = true;
-			// 
-			// Column15
-			// 
-			this.Column15.HeaderText = "상태";
-			this.Column15.Name = "Column15";
-			this.Column15.ReadOnly = true;
-			// 
-			// Column11
-			// 
-			this.Column11.HeaderText = "부품명";
-			this.Column11.Name = "Column11";
-			this.Column11.ReadOnly = true;
-			// 
-			// Column12
-			// 
-			this.Column12.HeaderText = "설계";
-			this.Column12.Name = "Column12";
-			this.Column12.ReadOnly = true;
-			// 
-			// Column13
-			// 
-			this.Column13.HeaderText = "CAM";
-			this.Column13.Name = "Column13";
-			this.Column13.ReadOnly = true;
-			// 
-			// Column14
-			// 
-			this.Column14.HeaderText = "조립";
-			this.Column14.Name = "Column14";
-			this.Column14.ReadOnly = true;
-			// 
-			// Column16
-			// 
-			this.Column16.HeaderText = "공정계획";
-			this.Column16.Name = "Column16";
-			this.Column16.ReadOnly = true;
-			// 
-			// Column17
-			// 
-			this.Column17.HeaderText = "작업공정";
-			this.Column17.Name = "Column17";
-			this.Column17.ReadOnly = true;
-			// 
-			// panel2
-			// 
-			this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.panel2.Controls.Add(this.label34);
-			this.panel2.Controls.Add(this.button11);
-			this.panel2.Controls.Add(this.textBox1);
-			this.panel2.Controls.Add(this.comboBox1);
-			this.panel2.Controls.Add(this.label36);
-			this.panel2.Location = new System.Drawing.Point(912, 573);
-			this.panel2.Name = "panel2";
-			this.panel2.Size = new System.Drawing.Size(834, 59);
-			this.panel2.TabIndex = 23;
-			// 
-			// label34
-			// 
-			this.label34.AutoSize = true;
-			this.label34.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label34.Location = new System.Drawing.Point(272, 13);
-			this.label34.Name = "label34";
-			this.label34.Size = new System.Drawing.Size(69, 25);
-			this.label34.TabIndex = 4;
-			this.label34.Text = "입력란";
-			// 
-			// button11
-			// 
-			this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button11.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.button11.Location = new System.Drawing.Point(689, 3);
-			this.button11.Name = "button11";
-			this.button11.Size = new System.Drawing.Size(140, 51);
-			this.button11.TabIndex = 3;
-			this.button11.Text = "찾기";
-			this.button11.UseVisualStyleBackColor = true;
-			// 
-			// textBox1
-			// 
-			this.textBox1.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.textBox1.Location = new System.Drawing.Point(361, 10);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(222, 33);
-			this.textBox1.TabIndex = 2;
-			// 
-			// comboBox1
-			// 
-			this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox1.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.comboBox1.FormattingEnabled = true;
-			this.comboBox1.Items.AddRange(new object[] {
-            "번호",
-            "직급",
-            "부서",
-            "이름"});
-			this.comboBox1.Location = new System.Drawing.Point(78, 10);
-			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(167, 33);
-			this.comboBox1.TabIndex = 1;
-			// 
-			// label36
-			// 
-			this.label36.AutoSize = true;
-			this.label36.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label36.Location = new System.Drawing.Point(3, 13);
-			this.label36.Name = "label36";
-			this.label36.Size = new System.Drawing.Size(50, 25);
-			this.label36.TabIndex = 0;
-			this.label36.Text = "형식";
-			// 
-			// label38
-			// 
-			this.label38.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-			this.label38.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-			this.label38.Location = new System.Drawing.Point(912, 545);
-			this.label38.Name = "label38";
-			this.label38.Size = new System.Drawing.Size(834, 25);
-			this.label38.TabIndex = 24;
-			this.label38.Text = "Select Box";
 			// 
 			// panel4
 			// 
@@ -1532,11 +1104,355 @@
 			this.label2.TabIndex = 0;
 			this.label2.Text = "형식";
 			// 
+			// Column9
+			// 
+			this.Column9.HeaderText = "고유번호";
+			this.Column9.Name = "Column9";
+			this.Column9.ReadOnly = true;
+			this.Column9.Visible = false;
+			// 
+			// Column10
+			// 
+			this.Column10.HeaderText = "제번";
+			this.Column10.Name = "Column10";
+			this.Column10.ReadOnly = true;
+			// 
+			// Column15
+			// 
+			this.Column15.HeaderText = "상태";
+			this.Column15.Name = "Column15";
+			this.Column15.ReadOnly = true;
+			// 
+			// Column11
+			// 
+			this.Column11.HeaderText = "부품명";
+			this.Column11.Name = "Column11";
+			this.Column11.ReadOnly = true;
+			// 
+			// Column12
+			// 
+			this.Column12.HeaderText = "설계";
+			this.Column12.Name = "Column12";
+			this.Column12.ReadOnly = true;
+			// 
+			// Column13
+			// 
+			this.Column13.HeaderText = "CAM";
+			this.Column13.Name = "Column13";
+			this.Column13.ReadOnly = true;
+			// 
+			// Column14
+			// 
+			this.Column14.HeaderText = "조립";
+			this.Column14.Name = "Column14";
+			this.Column14.ReadOnly = true;
+			// 
+			// Column16
+			// 
+			this.Column16.HeaderText = "공정계획";
+			this.Column16.Name = "Column16";
+			this.Column16.ReadOnly = true;
+			// 
+			// Column17
+			// 
+			this.Column17.HeaderText = "작업공정";
+			this.Column17.Name = "Column17";
+			this.Column17.ReadOnly = true;
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.label5.Location = new System.Drawing.Point(44, 76);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(49, 20);
+			this.label5.TabIndex = 5;
+			this.label5.Text = "번  호";
+			// 
+			// label6
+			// 
+			this.label6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+			this.label6.Dock = System.Windows.Forms.DockStyle.Top;
+			this.label6.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
+			this.label6.Location = new System.Drawing.Point(0, 0);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(743, 25);
+			this.label6.TabIndex = 10;
+			this.label6.Text = "Data ADD";
+			// 
+			// label7
+			// 
+			this.label7.AutoSize = true;
+			this.label7.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.label7.Location = new System.Drawing.Point(44, 138);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(45, 20);
+			this.label7.TabIndex = 11;
+			this.label7.Text = "I    D";
+			// 
+			// label8
+			// 
+			this.label8.AutoSize = true;
+			this.label8.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.label8.Location = new System.Drawing.Point(44, 200);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(48, 20);
+			this.label8.TabIndex = 12;
+			this.label8.Text = "P   W";
+			// 
+			// label9
+			// 
+			this.label9.AutoSize = true;
+			this.label9.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.label9.Location = new System.Drawing.Point(44, 262);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(49, 20);
+			this.label9.TabIndex = 13;
+			this.label9.Text = "이  름";
+			// 
+			// label10
+			// 
+			this.label10.AutoSize = true;
+			this.label10.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.label10.Location = new System.Drawing.Point(44, 324);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(49, 20);
+			this.label10.TabIndex = 14;
+			this.label10.Text = "직  급";
+			// 
+			// label11
+			// 
+			this.label11.AutoSize = true;
+			this.label11.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.label11.Location = new System.Drawing.Point(44, 386);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(49, 20);
+			this.label11.TabIndex = 15;
+			this.label11.Text = "부  서";
+			// 
+			// label12
+			// 
+			this.label12.AutoSize = true;
+			this.label12.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.label12.Location = new System.Drawing.Point(419, 76);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(69, 20);
+			this.label12.TabIndex = 16;
+			this.label12.Text = "전화번호";
+			// 
+			// label13
+			// 
+			this.label13.AutoSize = true;
+			this.label13.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.label13.Location = new System.Drawing.Point(419, 138);
+			this.label13.Name = "label13";
+			this.label13.Size = new System.Drawing.Size(54, 20);
+			this.label13.TabIndex = 17;
+			this.label13.Text = "이메일";
+			// 
+			// label14
+			// 
+			this.label14.AutoSize = true;
+			this.label14.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.label14.Location = new System.Drawing.Point(419, 200);
+			this.label14.Name = "label14";
+			this.label14.Size = new System.Drawing.Size(49, 20);
+			this.label14.TabIndex = 18;
+			this.label14.Text = "생  일";
+			// 
+			// label15
+			// 
+			this.label15.AutoSize = true;
+			this.label15.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.label15.Location = new System.Drawing.Point(419, 262);
+			this.label15.Name = "label15";
+			this.label15.Size = new System.Drawing.Size(54, 20);
+			this.label15.TabIndex = 19;
+			this.label15.Text = "입사일";
+			// 
+			// button7
+			// 
+			this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button7.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.button7.Location = new System.Drawing.Point(292, 72);
+			this.button7.Name = "button7";
+			this.button7.Size = new System.Drawing.Size(81, 33);
+			this.button7.TabIndex = 20;
+			this.button7.Text = "Check";
+			this.button7.UseVisualStyleBackColor = true;
+			// 
+			// button8
+			// 
+			this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button8.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.button8.Location = new System.Drawing.Point(292, 134);
+			this.button8.Name = "button8";
+			this.button8.Size = new System.Drawing.Size(81, 33);
+			this.button8.TabIndex = 21;
+			this.button8.Text = "Check";
+			this.button8.UseVisualStyleBackColor = true;
+			// 
+			// button9
+			// 
+			this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button9.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.button9.Location = new System.Drawing.Point(461, 410);
+			this.button9.Name = "button9";
+			this.button9.Size = new System.Drawing.Size(126, 36);
+			this.button9.TabIndex = 22;
+			this.button9.Text = "추가";
+			this.button9.UseVisualStyleBackColor = true;
+			// 
+			// button10
+			// 
+			this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button10.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
+			this.button10.Location = new System.Drawing.Point(593, 410);
+			this.button10.Name = "button10";
+			this.button10.Size = new System.Drawing.Size(126, 36);
+			this.button10.TabIndex = 23;
+			this.button10.Text = "닫기";
+			this.button10.UseVisualStyleBackColor = true;
+			// 
+			// tb_Add_No
+			// 
+			this.tb_Add_No.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.tb_Add_No.Location = new System.Drawing.Point(119, 73);
+			this.tb_Add_No.Name = "tb_Add_No";
+			this.tb_Add_No.Size = new System.Drawing.Size(167, 27);
+			this.tb_Add_No.TabIndex = 24;
+			// 
+			// tb_Add_ID
+			// 
+			this.tb_Add_ID.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.tb_Add_ID.Location = new System.Drawing.Point(119, 135);
+			this.tb_Add_ID.Name = "tb_Add_ID";
+			this.tb_Add_ID.Size = new System.Drawing.Size(167, 27);
+			this.tb_Add_ID.TabIndex = 25;
+			// 
+			// tb_Add_Pw
+			// 
+			this.tb_Add_Pw.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.tb_Add_Pw.Location = new System.Drawing.Point(119, 197);
+			this.tb_Add_Pw.Name = "tb_Add_Pw";
+			this.tb_Add_Pw.Size = new System.Drawing.Size(167, 27);
+			this.tb_Add_Pw.TabIndex = 26;
+			// 
+			// tb_Add_Name
+			// 
+			this.tb_Add_Name.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.tb_Add_Name.Location = new System.Drawing.Point(119, 259);
+			this.tb_Add_Name.Name = "tb_Add_Name";
+			this.tb_Add_Name.Size = new System.Drawing.Size(167, 27);
+			this.tb_Add_Name.TabIndex = 27;
+			// 
+			// cb_Add_Rank
+			// 
+			this.cb_Add_Rank.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cb_Add_Rank.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.cb_Add_Rank.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.cb_Add_Rank.FormattingEnabled = true;
+			this.cb_Add_Rank.Items.AddRange(new object[] {
+            "번호",
+            "직급",
+            "부서",
+            "이름"});
+			this.cb_Add_Rank.Location = new System.Drawing.Point(119, 321);
+			this.cb_Add_Rank.Name = "cb_Add_Rank";
+			this.cb_Add_Rank.Size = new System.Drawing.Size(167, 28);
+			this.cb_Add_Rank.TabIndex = 28;
+			// 
+			// cb_Add_Part
+			// 
+			this.cb_Add_Part.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cb_Add_Part.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.cb_Add_Part.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.cb_Add_Part.FormattingEnabled = true;
+			this.cb_Add_Part.Items.AddRange(new object[] {
+            "번호",
+            "직급",
+            "부서",
+            "이름"});
+			this.cb_Add_Part.Location = new System.Drawing.Point(119, 383);
+			this.cb_Add_Part.Name = "cb_Add_Part";
+			this.cb_Add_Part.Size = new System.Drawing.Size(167, 28);
+			this.cb_Add_Part.TabIndex = 29;
+			// 
+			// tb_Add_Number
+			// 
+			this.tb_Add_Number.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.tb_Add_Number.Location = new System.Drawing.Point(507, 73);
+			this.tb_Add_Number.Name = "tb_Add_Number";
+			this.tb_Add_Number.Size = new System.Drawing.Size(212, 27);
+			this.tb_Add_Number.TabIndex = 30;
+			// 
+			// tb_Add_Email
+			// 
+			this.tb_Add_Email.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.tb_Add_Email.Location = new System.Drawing.Point(507, 135);
+			this.tb_Add_Email.Name = "tb_Add_Email";
+			this.tb_Add_Email.Size = new System.Drawing.Size(212, 27);
+			this.tb_Add_Email.TabIndex = 31;
+			// 
+			// dtp_Add_Birthday
+			// 
+			this.dtp_Add_Birthday.CustomFormat = "yyyy-MM-dd";
+			this.dtp_Add_Birthday.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.dtp_Add_Birthday.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+			this.dtp_Add_Birthday.Location = new System.Drawing.Point(507, 197);
+			this.dtp_Add_Birthday.Name = "dtp_Add_Birthday";
+			this.dtp_Add_Birthday.Size = new System.Drawing.Size(212, 27);
+			this.dtp_Add_Birthday.TabIndex = 63;
+			// 
+			// dtp_Add_Longevity
+			// 
+			this.dtp_Add_Longevity.CustomFormat = "yyyy-MM-dd";
+			this.dtp_Add_Longevity.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
+			this.dtp_Add_Longevity.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+			this.dtp_Add_Longevity.Location = new System.Drawing.Point(507, 259);
+			this.dtp_Add_Longevity.Name = "dtp_Add_Longevity";
+			this.dtp_Add_Longevity.Size = new System.Drawing.Size(212, 27);
+			this.dtp_Add_Longevity.TabIndex = 64;
+			// 
+			// pnl_Add
+			// 
+			this.pnl_Add.Controls.Add(this.dtp_Add_Longevity);
+			this.pnl_Add.Controls.Add(this.dtp_Add_Birthday);
+			this.pnl_Add.Controls.Add(this.tb_Add_Email);
+			this.pnl_Add.Controls.Add(this.tb_Add_Number);
+			this.pnl_Add.Controls.Add(this.cb_Add_Part);
+			this.pnl_Add.Controls.Add(this.cb_Add_Rank);
+			this.pnl_Add.Controls.Add(this.tb_Add_Name);
+			this.pnl_Add.Controls.Add(this.tb_Add_Pw);
+			this.pnl_Add.Controls.Add(this.tb_Add_ID);
+			this.pnl_Add.Controls.Add(this.tb_Add_No);
+			this.pnl_Add.Controls.Add(this.button10);
+			this.pnl_Add.Controls.Add(this.button9);
+			this.pnl_Add.Controls.Add(this.button8);
+			this.pnl_Add.Controls.Add(this.button7);
+			this.pnl_Add.Controls.Add(this.label15);
+			this.pnl_Add.Controls.Add(this.label14);
+			this.pnl_Add.Controls.Add(this.label13);
+			this.pnl_Add.Controls.Add(this.label12);
+			this.pnl_Add.Controls.Add(this.label11);
+			this.pnl_Add.Controls.Add(this.label10);
+			this.pnl_Add.Controls.Add(this.label9);
+			this.pnl_Add.Controls.Add(this.label8);
+			this.pnl_Add.Controls.Add(this.label7);
+			this.pnl_Add.Controls.Add(this.label6);
+			this.pnl_Add.Controls.Add(this.label5);
+			this.pnl_Add.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.pnl_Add.Location = new System.Drawing.Point(0, 0);
+			this.pnl_Add.Name = "pnl_Add";
+			this.pnl_Add.Size = new System.Drawing.Size(743, 462);
+			this.pnl_Add.TabIndex = 0;
+			// 
 			// SubjectView
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1872, 922);
+			this.Controls.Add(this.panel3);
 			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.btn_Add);
 			this.Controls.Add(this.btn_Update);
@@ -1544,8 +1460,6 @@
 			this.Controls.Add(this.panel4);
 			this.Controls.Add(this.btn_Delete);
 			this.Controls.Add(this.label41);
-			this.Controls.Add(this.panel2);
-			this.Controls.Add(this.label38);
 			this.Controls.Add(this.label25);
 			this.Controls.Add(this.dataGridView2);
 			this.Controls.Add(this.label1);
@@ -1562,16 +1476,11 @@
 			this.Load += new System.EventHandler(this.SubjectView_Load);
 			this.pnl_Update.ResumeLayout(false);
 			this.pnl_Update.PerformLayout();
-			this.label_6.ResumeLayout(false);
 			this.panel3.ResumeLayout(false);
-			this.pnl_Add.ResumeLayout(false);
-			this.pnl_Add.PerformLayout();
 			this.pnl_Select.ResumeLayout(false);
 			this.pnl_Select.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-			this.panel2.ResumeLayout(false);
-			this.panel2.PerformLayout();
 			this.panel4.ResumeLayout(false);
 			this.panel6.ResumeLayout(false);
 			this.panel6.PerformLayout();
@@ -1579,6 +1488,8 @@
 			this.panel5.PerformLayout();
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
+			this.pnl_Add.ResumeLayout(false);
+			this.pnl_Add.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -1609,8 +1520,6 @@
 		private System.Windows.Forms.Label label24;
 		private System.Windows.Forms.Label lbl_44;
 		private System.Windows.Forms.Label label26;
-		private System.Windows.Forms.DateTimePicker dtp_Add_Longevity;
-		private System.Windows.Forms.DateTimePicker dtp_Add_Birthday;
 		private System.Windows.Forms.Label lbl_Name;
 		private System.Windows.Forms.Label lbl_ID;
 		private System.Windows.Forms.Label lbl_No;
@@ -1625,28 +1534,7 @@
 		private System.Windows.Forms.Label label35;
 		private System.Windows.Forms.Label lbl_DataSelect;
 		private System.Windows.Forms.Label label37;
-		private System.Windows.Forms.TextBox tb_Add_Email;
-		private System.Windows.Forms.TextBox tb_Add_Number;
-		private System.Windows.Forms.ComboBox cb_Add_Part;
-		private System.Windows.Forms.ComboBox cb_Add_Rank;
-		private System.Windows.Forms.TextBox tb_Add_Name;
-		private System.Windows.Forms.TextBox tb_Add_Pw;
-		private System.Windows.Forms.TextBox tb_Add_ID;
-		private System.Windows.Forms.TextBox tb_Add_No;
-		private System.Windows.Forms.Button button10;
-		private System.Windows.Forms.Button button9;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Button button8;
-		private System.Windows.Forms.Button button7;
-		private System.Windows.Forms.Label label15;
-		private System.Windows.Forms.Label label14;
-		private System.Windows.Forms.Label label13;
-		private System.Windows.Forms.Label label12;
-		private System.Windows.Forms.Label label11;
-		private System.Windows.Forms.Label label10;
-		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Panel label_6;
 		private System.Windows.Forms.Button btn_Add;
 		private System.Windows.Forms.Button btn_Update;
@@ -1654,9 +1542,6 @@
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Panel panel3;
-		private System.Windows.Forms.Panel pnl_Add;
-		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Panel pnl_Select;
 		private System.Windows.Forms.Button button6;
 		private System.Windows.Forms.Label lbl_Longevity;
@@ -1678,22 +1563,6 @@
 		private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
 		private System.Windows.Forms.Label label25;
 		private System.Windows.Forms.DataGridView dataGridView2;
-		private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-		private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-		private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
-		private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-		private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
-		private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
-		private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
-		private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
-		private System.Windows.Forms.DataGridViewTextBoxColumn Column17;
-		private System.Windows.Forms.Panel panel2;
-		private System.Windows.Forms.Label label34;
-		private System.Windows.Forms.Button button11;
-		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.ComboBox comboBox1;
-		private System.Windows.Forms.Label label36;
-		private System.Windows.Forms.Label label38;
 		private System.Windows.Forms.Panel panel4;
 		private System.Windows.Forms.Label label41;
 		private System.Windows.Forms.Panel panel1;
@@ -1711,5 +1580,40 @@
 		private System.Windows.Forms.RadioButton radioButton3;
 		private System.Windows.Forms.RadioButton radioButton2;
 		private System.Windows.Forms.RadioButton radioButton1;
+		private System.Windows.Forms.Panel pnl_Add;
+		private System.Windows.Forms.DateTimePicker dtp_Add_Longevity;
+		private System.Windows.Forms.DateTimePicker dtp_Add_Birthday;
+		private System.Windows.Forms.TextBox tb_Add_Email;
+		private System.Windows.Forms.TextBox tb_Add_Number;
+		private System.Windows.Forms.ComboBox cb_Add_Part;
+		private System.Windows.Forms.ComboBox cb_Add_Rank;
+		private System.Windows.Forms.TextBox tb_Add_Name;
+		private System.Windows.Forms.TextBox tb_Add_Pw;
+		private System.Windows.Forms.TextBox tb_Add_ID;
+		private System.Windows.Forms.TextBox tb_Add_No;
+		private System.Windows.Forms.Button button10;
+		private System.Windows.Forms.Button button9;
+		private System.Windows.Forms.Button button8;
+		private System.Windows.Forms.Button button7;
+		private System.Windows.Forms.Label label15;
+		private System.Windows.Forms.Label label14;
+		private System.Windows.Forms.Label label13;
+		private System.Windows.Forms.Label label12;
+		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column17;
 	}
 }
