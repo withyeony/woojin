@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F1398444-709E-4B8E-BAE4-9E2A865CA8B4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>View</RootNamespace>
+    <AssemblyName>View</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MachineView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MachineView.Designer.cs">
+      <DependentUpon>MachineView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Standard\CustomerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Standard\CustomerInfo.Designer.cs">
+      <DependentUpon>CustomerInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notice\NoticeBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notice\NoticeBoard.Designer.cs">
+      <DependentUpon>NoticeBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\PartView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\PartView.Designer.cs">
+      <DependentUpon>PartView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\SubjectView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\SubjectView.Designer.cs">
+      <DependentUpon>SubjectView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\OrderView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\OrderView.Designer.cs">
+      <DependentUpon>OrderView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Standard\MemberView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Standard\MemberView.Designer.cs">
+      <DependentUpon>MemberView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Standard\DefaltCode.Designer.cs">
+      <DependentUpon>DefaltCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ETC\Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ETC\Alarm.Designer.cs">
+      <DependentUpon>Alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicForm.Designer.cs">
+      <DependentUpon>BasicForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Standard\DefaltCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Standard\StandardProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Standard\StandardProcess.Designer.cs">
+      <DependentUpon>StandardProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ETC\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ETC\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OldView\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OldView\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OldView\PreviewOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OldView\PreviewOrder.Designer.cs">
+      <DependentUpon>PreviewOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Standard\StandardTextModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Standard\StandardTextModal.Designer.cs">
+      <DependentUpon>StandardTextModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\UCDefaultCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserForm\UCDefaultCode.Designer.cs">
+      <DependentUpon>UCDefaultCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\UCStandardProcess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserForm\UCStandardProcess.Designer.cs">
+      <DependentUpon>UCStandardProcess.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MachineView.resx">
+      <DependentUpon>MachineView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notice\NoticeBoard.resx">
+      <DependentUpon>NoticeBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Standard\CustomerInfo.resx">
+      <DependentUpon>CustomerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\PartView.resx">
+      <DependentUpon>PartView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\SubjectView.resx">
+      <DependentUpon>SubjectView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\OrderView.resx">
+      <DependentUpon>OrderView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Standard\MemberView.resx">
+      <DependentUpon>MemberView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Standard\DefaltCode.resx">
+      <DependentUpon>DefaltCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ETC\Alarm.resx">
+      <DependentUpon>Alarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicForm.resx">
+      <DependentUpon>BasicForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Standard\StandardProcess.resx">
+      <DependentUpon>StandardProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ETC\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OldView\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OldView\PreviewOrder.resx">
+      <DependentUpon>PreviewOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Standard\StandardTextModal.resx">
+      <DependentUpon>StandardTextModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\UCDefaultCode.resx">
+      <DependentUpon>UCDefaultCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\UCStandardProcess.resx">
+      <DependentUpon>UCStandardProcess.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controller\Controller.csproj">
+      <Project>{9ca38f3d-b247-4e99-92e2-676b47b10203}</Project>
+      <Name>Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{d03906dd-52b3-42e9-b6d1-3aab34b5164e}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\캡처.PNG" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
